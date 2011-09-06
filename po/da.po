@@ -1,130 +1,147 @@
+# Danish translation of wesnoth-Mystery_Campaign (da.po)
+# Dansk oversættelse for wesnoth-Mystery_Campaign (da.po).
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2007.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 21:15-0400\n"
-"PO-Revision-Date: 2011-09-05 21:15-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"PO-Revision-Date: 2007-05-14 22:43+0200\n"
+"Last-Translator: Joe Hansen\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [campaign]
-#: _main.cfg:15
+#: Mystery_Campaign/_main.cfg:15
 msgid "MC"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:18
+#: Mystery_Campaign/_main.cfg:18
 msgid "Mystery Campaign"
-msgstr ""
+msgstr "Mysteriekampagnen"
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "Skirmisher"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "(Easy)"
 msgstr ""
 
+# Har bevidst fravalgt "ikke så let", da der kun er tre niveauer og 
+# Not so easy er den midterste og svarer til normal.
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
+#, fuzzy
 msgid "(Not so easy)"
-msgstr ""
+msgstr "Normal"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
+#, fuzzy
 msgid "(Nightmare)"
-msgstr ""
+msgstr "Mareridt"
 
 #. [campaign]
-#: _main.cfg:28
+#: Mystery_Campaign/_main.cfg:28
+#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
+"Denne kampagne er uendelig lang og tilfældig. Efterhånden som du spiller "
+"bliver kampagnen på forskellig vis sværere og sværere. Hvor mange scenarier "
+"kan du gennemføre?"
 
 #. [about]
-#: _main.cfg:31
+#: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:32
+#: Mystery_Campaign/_main.cfg:32
 msgid "Josh Parsons/jp30"
 msgstr ""
 
 #. [about]
-#: _main.cfg:35
+#: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:36
+#: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
 msgstr ""
 
 #. [about]
-#: _main.cfg:39
+#: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:40
+#: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
 msgstr ""
 
 #. [about]
-#: _main.cfg:43
+#: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
 msgstr ""
 
 #. [about]
-#: _main.cfg:44
+#: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
 msgstr ""
 
-#: utils/factions_config.cfg:43 factions/chaotic-humans.cfg:3
+#: Mystery_Campaign/utils/factions_config.cfg:43
+#: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:5 factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
+#: Mystery_Campaign/factions/chaotic-humans.cfg:24
 msgid "Cockatrice"
-msgstr ""
+msgstr "Basilisk"
 
 #. [scenario]: id={ID}
-#: scenarios/mystery_scenario.cfg:5
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:5
 msgid "Mystery Scenario"
-msgstr ""
+msgstr "mysteriescenarium"
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:20
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
 msgstr ""
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:28
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -135,81 +152,267 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
+"Velkommen, $player_leader|, nu starter scenarie $scenario_number|.\n"
+"\n"
+"Jeg har $gold guldstykker, og min hær af $enemy_faction består af følgende "
+"typer af enheder: $enemy_recruits|. \n"
+"\n"
+"For at fuldføre scenariet, må du besejre mig, eller tvinge mig til "
+"overgivelse!"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:95
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:95
 msgid "Defeat enemy leader"
-msgstr ""
+msgstr "Besejr fjendtlig leder"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:99
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:99
 msgid "Enemy leader surrenders"
-msgstr ""
+msgstr "Fjendtlig leder overgiver sig"
 
 #. [objective]: condition=lose
-#: scenarios/mystery_scenario.cfg:103
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:103
 msgid "Death of your leader"
-msgstr ""
+msgstr "Din leders død"
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:19
+#: Mystery_Campaign/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
 "dangerous."
 msgstr ""
+"Basilisker, disse mystiske skabninger menes at være i stand til at gøre alt "
+"levende til sten. Dette gør dem - selvsagt - ekstremt farlige."
 
 #. [attack]: type=cold
-#: units/Cockatrice.cfg:23
+#: Mystery_Campaign/units/Cockatrice.cfg:23
 msgid "gaze"
-msgstr ""
+msgstr "se stift"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:20
+#: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
-msgstr ""
+msgstr "Hvilken fraktion ønsker du at spille:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:22
+#: Mystery_Campaign/utils/02_config.cfg:22
+#, fuzzy
 msgid "Pick one for me!"
-msgstr ""
+msgstr "&random-enemy.png=Vælg en for mig!"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:38
+#: Mystery_Campaign/utils/02_config.cfg:38
 msgid "What type of unit should your leader be?"
-msgstr ""
+msgstr "Hvilken enhedstype skal din leder være?"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:51
+#: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
 msgstr ""
 
 #. [text_input]
-#: utils/02_config.cfg:54
+#: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:100
+#: Mystery_Campaign/utils/02_config.cfg:100
 msgid "What funding level do you want for the campaign?"
-msgstr ""
+msgstr "På hvilket pengeniveau ønsker du at spille kampagnen?"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:102
+#: Mystery_Campaign/utils/02_config.cfg:102
 msgid "Classic"
-msgstr ""
+msgstr "Klassisk"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:108
+#: Mystery_Campaign/utils/02_config.cfg:108
 msgid "Moderate"
-msgstr ""
+msgstr "Moderat"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:114
+#: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
-msgstr ""
+msgstr "Overdreven"
 
 #. [message]
-#: utils/utils.cfg:96
+#: Mystery_Campaign/utils/utils.cfg:96
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
+msgstr "Ak, det er håbløst! Jeg overgiver mig!"
+
+#~ msgid "Elder Mage"
+#~ msgstr "Erfaren troldmand"
+
+#~ msgid "Battle Princess"
+#~ msgstr "Krigsfyrstinde"
+
+#~ msgid "Lord"
+#~ msgstr "Lensherre"
+
+#~ msgid "Elvish Marshal"
+#~ msgstr "Elvisk marskal"
+
+#~ msgid "Elvish High Lord"
+#~ msgstr "Elvisk storlensherre"
+
+#~ msgid "Elvish Lord"
+#~ msgstr "Elvisk lensherre"
+
+#~ msgid "Skeletal Dragon"
+#~ msgstr "Skeletdrage"
+
+#~ msgid "Drakes"
+#~ msgstr "Hestedragere"
+
+# Her er der ikke fundet et ordentlig navn endnu, andre muligheder er 
+# kaosmennesker, kaotikere eller anarkister.
+#~ msgid "Chaotic Humans"
+#~ msgstr "Lyssky mennesker"
+
+#~ msgid "Your leader surrenders"
+#~ msgstr "Din leder overgiver sig"
+
+#~ msgid "female^Battle Princess"
+#~ msgstr "Krigsfyrstinde"
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals, and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. Now battle-hardened and strong of will, she "
+#~ "can now aid those around her in the art of combat."
+#~ msgstr ""
+#~ "Adelig fra fødslen er krigsfyrstinden udlært i sværdkunsten af de største "
+#~ "generaler, og krigstaktik af de største vismænd, hvilket har gjort hende  "
+#~ "til en dygtig kriger og leder. Med krigserfaring og en stærk vilje kan "
+#~ "hun også hjælpe dem omkring hende i krigskunsten."
+
+#~ msgid "sabre"
+#~ msgstr "nedsable"
+
+#~ msgid "Chocobone"
+#~ msgstr "Chocobone"
+
+#~ msgid ""
+#~ "Riding the bones of ostrich-like large birds once used as mounts by a "
+#~ "lost civilization, the skeletal Chocobones can move faster than most "
+#~ "cavalry units."
+#~ msgstr ""
+#~ "På ryggen af strudselignende fugle, der tidligere blev tæmmet af en tabt "
+#~ "civilisation, kan skeletchocobonerne ride hurtigere end de fleste "
+#~ "kavalerienheder."
+
+#~ msgid ""
+#~ "The rank of Commander is held by those who lead battle groups into "
+#~ "combat. Possessing leadership skills, they give lower-level units in "
+#~ "adjacent hexes improved performance in combat. Commanders are best "
+#~ "skilled with the sword, although they also carry a bow to use when "
+#~ "necessary. If the Commander is lost, so is the battle."
+#~ msgstr ""
+#~ "Rangen af kommandør indehaves af de enheder som fører andre krigsenheder "
+#~ "i kamp.Med deres lederevner yder de hjælp til mindre erfarne enheder i "
+#~ "tilstødende felter. Kommandøren er uddannet med sværdet, men bærer også "
+#~ "en bue. Hvis kommandøren dræbes, tabes slaget."
+
+#~ msgid ""
+#~ "Once great, Elder Magi have seen their power a little diminished from "
+#~ "wearying years of battle. Nevertheless they remain feared on the "
+#~ "battlefield on account of their powerful lightning bolts."
+#~ msgstr ""
+#~ "Engang magtfulde, har de erfarne troldmænd måtte se deres magt "
+#~ "formindskes igennem årtier med kamp. Alligevel er de stadig frygtet på "
+#~ "krigsscenen på grund af deres kraftfulde tordenkiler."
+
+#~ msgid ""
+#~ "The leaders of the elves do not fall sallow and frail with age. Rather, "
+#~ "it is then that they grow to their true potential. Quiet and "
+#~ "contemplative in times of peace, a High Lord in the full of his wrath is "
+#~ "an awesome sight indeed."
+#~ msgstr ""
+#~ "Elvernes ledere ældes ikke. Tværtimod det er med alderen, at de opnår "
+#~ "deres fulde potentiale. Lige så rolig og eftertænksomme de er i fredstid, "
+#~ "lige så frygtindgydende er en elvisk overlensherre i krigstid."
+
+#~ msgid ""
+#~ "The nobility of the elves are possessed of merit to match their standing "
+#~ "in society. Elvish Lords are the wisest and strongest of their people, "
+#~ "and are fearsome in their command of magic."
+#~ msgstr ""
+#~ "Anseelsen blandt elverne i deres samfund afspejles i deres status og rang "
+#~ "i samfundet. Elviske lensherrer er de klogeste og stærkeste blandt "
+#~ "elverfolket og de er frygtet for deres brug af magi."
+
+#~ msgid "Fighter"
+#~ msgstr "Kæmper"
+
+#~ msgid ""
+#~ "Young and brash, Fighters fight with a sword, and are vulnerable to "
+#~ "attack from enemies. However they have the potential to become great "
+#~ "warriors one day."
+#~ msgstr ""
+#~ "Unge og energifyldte. Kæmperne slås med sværd og er sårbare over for "
+#~ "angreb. De har dog også potentialet til en dag at blive stærke og berømte "
+#~ "kæmpere. "
+
+#~ msgid ""
+#~ "The noble leaders of many troops, Lords are especially strong in melee "
+#~ "combat, and also possess skill with the bow. Like Commanders, Lords "
+#~ "possess leadership skills, and improve the fighting ability of all "
+#~ "adjacent lower-level units."
+#~ msgstr ""
+#~ "Som leder af mange menige er lensherren specielt stærk i nærkamp, og har "
+#~ "også evner inden for bueskydning. Ligesom kommandører, har lensherrer "
+#~ "lederevner, og forøger dermed lavere rangerende enheders kampevner når de "
+#~ "er placeret omkring lensherren."
+
+#~ msgid "Merdwarf"
+#~ msgstr "Havdværg"
+
+#~ msgid ""
+#~ "Legends tell of dwarves who took to the sea, and adapted to life "
+#~ "underwater.  Of course, no-one could possibly believe such a ridiculous "
+#~ "story."
+#~ msgstr ""
+#~ "Sagnene fortæller om dværge som rejste over havet og tilpassede sig et "
+#~ "liv under havoverfladen. Selvfølgelig er der ingen som tror på sådan en "
+#~ "fjollet historie."
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. The units of lower level around the Princess "
+#~ "will fight better due to her presence. The Princess is also nimble and "
+#~ "dextrous, having skills like that of a thief."
+#~ msgstr ""
+#~ "Adelig ved fødslen, og derfor uddannet i krigskunsten af de største "
+#~ "generaler og krigstaktik af de største vismænd, har gjort Princess til en "
+#~ "stor kriger og leder. Enheder med lavere rang omkring Princess vil kæmpe "
+#~ "bedre på grund af hendes tilstedeværelse. Princess er også behændig og "
+#~ "har evner som dem, der er udviklet hos tyve."
+
+#~ msgid ""
+#~ "Long ago one of the mightiest living creatures, the feared Dragon has "
+#~ "become only bones and dark sinew. Long after its death, it was raised "
+#~ "through the dark powers of necromancy, which it now serves. The Skeletal "
+#~ "Dragon may look like nothing more than a pile of bones, but few people "
+#~ "who thought that way lived long enough to change their minds."
+#~ msgstr ""
+#~ "For lang tid siden blev et af de stærkeste levende skabninger, den "
+#~ "frygtede drage, reduceret til kun ben og mørk livsnerve. Lang tid efter "
+#~ "dens død, blev den genskabt igennem mørk magi, som den nu er loyal over "
+#~ "for. Skeletdragen ser ikke ud af meget andet end en bunke af ben, men "
+#~ "meget få personer som så den sådan levede i så lang tid, at de kunne nå "
+#~ "at ændre deres opfattelse."
+
+#~ msgid ""
+#~ "Cold and beautiful, she maintains her eternal youthful appearance "
+#~ "drinking the blood of the living."
+#~ msgstr ""
+#~ "Kold og smuk bevarer hun sin evige ungdom ved at drikke blod fra de "
+#~ "levende."
+
+#~ msgid "Please don't hurt me! Have you no pity?"
+#~ msgstr "Ydmyg mig ikke! Viser du ingen nåde?"
+
+#~ msgid "Your enemy has surrendered!"
+#~ msgstr "Din fjende har overgivet sig!"

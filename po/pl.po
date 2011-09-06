@@ -1,131 +1,140 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 21:15-0400\n"
-"PO-Revision-Date: 2011-09-05 21:15-0400\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"PO-Revision-Date: 2005-10-12 14:07+0100\n"
+"Last-Translator: Arkadiusz Danilecki <adanilecki@cs.put.poznan.pl>\n"
 "Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
 #. [campaign]
-#: _main.cfg:15
+#: Mystery_Campaign/_main.cfg:15
 msgid "MC"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:18
+#: Mystery_Campaign/_main.cfg:18
 msgid "Mystery Campaign"
-msgstr ""
+msgstr "Tajemnicza Kampania"
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "Skirmisher"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
+#, fuzzy
 msgid "(Easy)"
-msgstr ""
+msgstr "Łatwy"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
+#, fuzzy
 msgid "(Not so easy)"
-msgstr ""
+msgstr "Nie aż tak łatwy"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
+#, fuzzy
 msgid "(Nightmare)"
-msgstr ""
+msgstr "Koszmarny"
 
 #. [campaign]
-#: _main.cfg:28
+#: Mystery_Campaign/_main.cfg:28
+#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
+"To jest nieskończenie długa losowa kampania. Im dłużej w nia grasz, tym "
+"staje się trudniejsza na różne sposoby. Ile scenariuszy dasz radę przejść?"
 
 #. [about]
-#: _main.cfg:31
+#: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:32
+#: Mystery_Campaign/_main.cfg:32
 msgid "Josh Parsons/jp30"
 msgstr ""
 
 #. [about]
-#: _main.cfg:35
+#: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:36
+#: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
 msgstr ""
 
 #. [about]
-#: _main.cfg:39
+#: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:40
+#: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
 msgstr ""
 
 #. [about]
-#: _main.cfg:43
+#: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
 msgstr ""
 
 #. [about]
-#: _main.cfg:44
+#: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
 msgstr ""
 
-#: utils/factions_config.cfg:43 factions/chaotic-humans.cfg:3
+#: Mystery_Campaign/utils/factions_config.cfg:43
+#: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:5 factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
+#: Mystery_Campaign/factions/chaotic-humans.cfg:24
 msgid "Cockatrice"
 msgstr ""
 
 #. [scenario]: id={ID}
-#: scenarios/mystery_scenario.cfg:5
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:5
 msgid "Mystery Scenario"
-msgstr ""
+msgstr "Tajemniczy scenariusz"
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:20
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
 msgstr ""
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:28
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -136,24 +145,32 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
+"Bądźcie pozdrowieni, $player_leader|, witam w scenariuszu "
+"$scenario_number|.\n"
+"\n"
+"Mam $gold złota, a moja armia $enemy_faction składa sie z jednostek "
+"następujących typów: $enemy_recruits|.\n"
+"\n"
+"Aby skończyć ten scenariusz, musisz pokonać mnie, albo zmusić do poddania!"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:95
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:95
 msgid "Defeat enemy leader"
 msgstr ""
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:99
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:99
+#, fuzzy
 msgid "Enemy leader surrenders"
-msgstr ""
+msgstr "Twój wróg się poddał!"
 
 #. [objective]: condition=lose
-#: scenarios/mystery_scenario.cfg:103
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:103
 msgid "Death of your leader"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:19
+#: Mystery_Campaign/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
@@ -161,56 +178,93 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: units/Cockatrice.cfg:23
+#: Mystery_Campaign/units/Cockatrice.cfg:23
 msgid "gaze"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:20
+#: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
-msgstr ""
+msgstr "Którą fakcją chciałbyś kierować:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:22
+#: Mystery_Campaign/utils/02_config.cfg:22
+#, fuzzy
 msgid "Pick one for me!"
-msgstr ""
+msgstr "&random-enemy.png=Wybierz jedną dla mnie!"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:38
+#: Mystery_Campaign/utils/02_config.cfg:38
 msgid "What type of unit should your leader be?"
-msgstr ""
+msgstr "Jakiego typu jednostką powinien być twój przywódca?"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:51
+#: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
 msgstr ""
 
 #. [text_input]
-#: utils/02_config.cfg:54
+#: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:100
+#: Mystery_Campaign/utils/02_config.cfg:100
+#, fuzzy
 msgid "What funding level do you want for the campaign?"
-msgstr ""
+msgstr "Którą fakcją chciałbyś kierować:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:102
+#: Mystery_Campaign/utils/02_config.cfg:102
 msgid "Classic"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:108
+#: Mystery_Campaign/utils/02_config.cfg:108
 msgid "Moderate"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:114
+#: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
 msgstr ""
 
 #. [message]
-#: utils/utils.cfg:96
+#: Mystery_Campaign/utils/utils.cfg:96
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
+msgstr "Och, moja sytuacja jest beznadziejna. Poddaję się!"
+
+#~ msgid "Chaotic Humans"
+#~ msgstr "Chaotyczni ludzie"
+
+#, fuzzy
+#~ msgid "Your leader surrenders"
+#~ msgstr "Twój wróg się poddał!"
+
+#, fuzzy
+#~ msgid "Fighter"
+#~ msgstr "Koszmarny"
+
+#~ msgid "Merdwarf"
+#~ msgstr "Krasnowodniki"
+
+#~ msgid ""
+#~ "Legends tell of dwarves who took to the sea, and adapted to life "
+#~ "underwater.  Of course, no-one could possibly believe such a ridiculous "
+#~ "story."
+#~ msgstr ""
+#~ "Legendy mówią o krasnoludach, które dotarły do morza i dostosowały się do "
+#~ "życia pod wodą. Oczywiście, w tak głupiutką opowiastkę nikt by nie "
+#~ "uwierzył."
+
+#~ msgid "Please don't hurt me! Have you no pity?"
+#~ msgstr "Proszę, nie krzywdź mnie! Czy nie ma w tobie litości?"
+
+#~ msgid "Your enemy has surrendered!"
+#~ msgstr "Twój wróg się poddał!"
+
+#~ msgid "impact"
+#~ msgstr "obuchowa"
+
+#~ msgid "fist"
+#~ msgstr "pięść"

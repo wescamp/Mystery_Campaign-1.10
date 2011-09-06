@@ -1,130 +1,139 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 21:15-0400\n"
-"PO-Revision-Date: 2011-09-05 21:15-0400\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"PO-Revision-Date: 2007-05-14 12:59+0100\n"
+"Last-Translator: Brivido <brivido(at)gmail.com>\n"
 "Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [campaign]
-#: _main.cfg:15
+#: Mystery_Campaign/_main.cfg:15
 msgid "MC"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:18
+#: Mystery_Campaign/_main.cfg:18
 msgid "Mystery Campaign"
-msgstr ""
+msgstr "Campagna misteriosa"
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "Skirmisher"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
+#, fuzzy
 msgid "(Easy)"
-msgstr ""
+msgstr "Facile"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
+#, fuzzy
 msgid "(Not so easy)"
-msgstr ""
+msgstr "Non così facile"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
+#, fuzzy
 msgid "(Nightmare)"
-msgstr ""
+msgstr "Incubo"
 
 #. [campaign]
-#: _main.cfg:28
+#: Mystery_Campaign/_main.cfg:28
+#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
+"Questa è una campagna casuale senza fine. Man mano che giochi la difficoltà "
+"aumenta sotto diversi aspetti. Quanti scenari riuscirai a completare?"
 
 #. [about]
-#: _main.cfg:31
+#: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:32
+#: Mystery_Campaign/_main.cfg:32
 msgid "Josh Parsons/jp30"
 msgstr ""
 
 #. [about]
-#: _main.cfg:35
+#: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:36
+#: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
 msgstr ""
 
 #. [about]
-#: _main.cfg:39
+#: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:40
+#: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
 msgstr ""
 
 #. [about]
-#: _main.cfg:43
+#: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
 msgstr ""
 
 #. [about]
-#: _main.cfg:44
+#: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
 msgstr ""
 
-#: utils/factions_config.cfg:43 factions/chaotic-humans.cfg:3
+#: Mystery_Campaign/utils/factions_config.cfg:43
+#: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:5 factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
+#: Mystery_Campaign/factions/chaotic-humans.cfg:24
 msgid "Cockatrice"
-msgstr ""
+msgstr "Cockatrice"
 
 #. [scenario]: id={ID}
-#: scenarios/mystery_scenario.cfg:5
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:5
 msgid "Mystery Scenario"
-msgstr ""
+msgstr "Scenario del mistero"
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:20
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
 msgstr ""
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:28
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -135,81 +144,278 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
+"Salute $player_leader|, benvenuto allo scenario numero $scenario_number|.\n"
+"\n"
+"Ho $gold pezzi d'oro, e il mio esercito di $enemy_faction è composto dalle "
+"seguenti unità: $enemy_recruits|. \n"
+"\n"
+"Per completare lo scenario devi sconfiggermi o costringermi alla resa!"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:95
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:95
 msgid "Defeat enemy leader"
-msgstr ""
+msgstr "Sconfiggi il comandante nemico"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:99
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:99
 msgid "Enemy leader surrenders"
-msgstr ""
+msgstr "Il comandante nemico si arrende"
 
 #. [objective]: condition=lose
-#: scenarios/mystery_scenario.cfg:103
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:103
 msgid "Death of your leader"
-msgstr ""
+msgstr "Morte del tuo comandante"
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:19
+#: Mystery_Campaign/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
 "dangerous."
 msgstr ""
+"Note anche come «basilischi», sembra che queste mitiche creature siano in "
+"grado di tramutare i vivi in pietra. Non c'è bisogno di aggiungere che ciò "
+"li rende molto pericolose."
 
 #. [attack]: type=cold
-#: units/Cockatrice.cfg:23
+#: Mystery_Campaign/units/Cockatrice.cfg:23
 msgid "gaze"
-msgstr ""
+msgstr "sguardo"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:20
+#: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
-msgstr ""
+msgstr "Quale fazione vuoi controllare:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:22
+#: Mystery_Campaign/utils/02_config.cfg:22
+#, fuzzy
 msgid "Pick one for me!"
-msgstr ""
+msgstr "&random-enemy.png=Scegli tu per me!"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:38
+#: Mystery_Campaign/utils/02_config.cfg:38
 msgid "What type of unit should your leader be?"
-msgstr ""
+msgstr "Quale tipo di unità vuoi che sia il tuo comandante?"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:51
+#: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
 msgstr ""
 
 #. [text_input]
-#: utils/02_config.cfg:54
+#: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:100
+#: Mystery_Campaign/utils/02_config.cfg:100
 msgid "What funding level do you want for the campaign?"
-msgstr ""
+msgstr "Che livello di fondi desideri per la tua campagna?"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:102
+#: Mystery_Campaign/utils/02_config.cfg:102
 msgid "Classic"
-msgstr ""
+msgstr "Classico"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:108
+#: Mystery_Campaign/utils/02_config.cfg:108
 msgid "Moderate"
-msgstr ""
+msgstr "Medio"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:114
+#: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
-msgstr ""
+msgstr "Eccessivo"
 
 #. [message]
-#: utils/utils.cfg:96
+#: Mystery_Campaign/utils/utils.cfg:96
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
+msgstr "Oh, è la fine! Mi arrendo!"
+
+#~ msgid "Elder Mage"
+#~ msgstr "Mago anziano"
+
+#~ msgid "Battle Princess"
+#~ msgstr "Principessa guerriera"
+
+#~ msgid "Lord"
+#~ msgstr "Signore"
+
+#~ msgid "Elvish Marshal"
+#~ msgstr "Elfo colonnello"
+
+#~ msgid "Elvish High Lord"
+#~ msgstr "Gran signore degli elfi"
+
+#~ msgid "Elvish Lord"
+#~ msgstr "Elfo signore"
+
+#~ msgid "Skeletal Dragon"
+#~ msgstr "Drago scheletrico"
+
+#~ msgid "Drakes"
+#~ msgstr "Draghi"
+
+#~ msgid "Chaotic Humans"
+#~ msgstr "Uomini del caos"
+
+#~ msgid "Your leader surrenders"
+#~ msgstr "Il tuo comandante si arrende"
+
+#~ msgid "female^Battle Princess"
+#~ msgstr "Principessa guerriera"
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals, and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. Now battle-hardened and strong of will, she "
+#~ "can now aid those around her in the art of combat."
+#~ msgstr ""
+#~ "Nobile di nascita, la principessa ha imparato la scherma con i migliori "
+#~ "generali e tattiche di guerra con i più grandi saggi, facendo di lei una "
+#~ "grande combattente e condottiera. Grazie alla sua abilità nel comando, le "
+#~ "unità di livello inferiore che si schiereranno nelle sue vicinanze "
+#~ "combatteranno meglio."
+
+#~ msgid "sabre"
+#~ msgstr "sciabola"
+
+#~ msgid "Chocobone"
+#~ msgstr "Cavalcatore d'ossa"
+
+#~ msgid ""
+#~ "Riding the bones of ostrich-like large birds once used as mounts by a "
+#~ "lost civilization, the skeletal Chocobones can move faster than most "
+#~ "cavalry units."
+#~ msgstr ""
+#~ "Cavalcando le ossa di grossi uccelli usati come trasporto da una perduta "
+#~ "civiltà, i cavalcatori d'ossa possono muoversi più velocemente della "
+#~ "maggior parte delle truppe di cavalleria."
+
+#~ msgid ""
+#~ "The rank of Commander is held by those who lead battle groups into "
+#~ "combat. Possessing leadership skills, they give lower-level units in "
+#~ "adjacent hexes improved performance in combat. Commanders are best "
+#~ "skilled with the sword, although they also carry a bow to use when "
+#~ "necessary. If the Commander is lost, so is the battle."
+#~ msgstr ""
+#~ "Il grado di comandante viene assegnato a coloro che guidano le armate in "
+#~ "battaglia. Avere abilità di comando conferisce alle unità di più basso "
+#~ "livello negli esagoni adiacenti migliorate abilità di combattimento. I "
+#~ "comandanti sono più abili nel maneggiare la spada, benché portino con sé "
+#~ "anche un arco da usare quando necessario. Se il comandante è perduto, lo "
+#~ "è anche la battaglia."
+
+#~ msgid ""
+#~ "Once great, Elder Magi have seen their power a little diminished from "
+#~ "wearying years of battle. Nevertheless they remain feared on the "
+#~ "battlefield on account of their powerful lightning bolts."
+#~ msgstr ""
+#~ "I maghi anziani, un tempo molto potenti, hanno visto il loro potere "
+#~ "affievolirsi dopo anni passati in battaglia. Nonostate ciò sono ancora "
+#~ "temibili nel campo di battaglia a causa delle loro potenti saette "
+#~ "fulminanti."
+
+#~ msgid ""
+#~ "The leaders of the elves do not fall sallow and frail with age. Rather, "
+#~ "it is then that they grow to their true potential. Quiet and "
+#~ "contemplative in times of peace, a High Lord in the full of his wrath is "
+#~ "an awesome sight indeed."
+#~ msgstr ""
+#~ "I capi degli elfi non si indeboliscono con l'età. Anzi, è proprio allora "
+#~ "che acquisiscono il loro vero potenziale. Silenzioso e contemplativo in "
+#~ "tempi di pace, un gran signore degli elfi nel pieno della sua collera è "
+#~ "uno spettacolo impressionante."
+
+#~ msgid ""
+#~ "The nobility of the elves are possessed of merit to match their standing "
+#~ "in society. Elvish Lords are the wisest and strongest of their people, "
+#~ "and are fearsome in their command of magic."
+#~ msgstr ""
+#~ "La nobiltà degli elfi è una caratteristica di merito che contraddistingue "
+#~ "la loro posizione nella società. I signori degli elfi sono i più forti e "
+#~ "saggi tra la loro gente e sono terrificanti nel loro potere magico."
+
+#~ msgid "Fighter"
+#~ msgstr "Guerriero"
+
+#~ msgid ""
+#~ "Young and brash, Fighters fight with a sword, and are vulnerable to "
+#~ "attack from enemies. However they have the potential to become great "
+#~ "warriors one day."
+#~ msgstr ""
+#~ "Giovani e spavaldi, i combattenti combattono con la spada in battaglia e "
+#~ "sono vulnerabili agli attacchi dei nemici. Ciò nonostante hanno il "
+#~ "potenziale per divenire un giorno grandi guerrieri."
+
+#~ msgid ""
+#~ "The noble leaders of many troops, Lords are especially strong in melee "
+#~ "combat, and also possess skill with the bow. Like Commanders, Lords "
+#~ "possess leadership skills, and improve the fighting ability of all "
+#~ "adjacent lower-level units."
+#~ msgstr ""
+#~ "Nobili condottieri di diverse truppe, i signori sono particolarmente "
+#~ "forti negli attacchi ravvicinati ma possiedono anche una certa abilità "
+#~ "con gli archi. Come i comandanti, i signori possiedono l'abilità di "
+#~ "comando e forniscono un incremento negli attacchi di tutte le unità di "
+#~ "livello inferiore posizionate negli esagoni adiacenti."
+
+#~ msgid "Merdwarf"
+#~ msgstr "Nano del mare"
+
+#~ msgid ""
+#~ "Legends tell of dwarves who took to the sea, and adapted to life "
+#~ "underwater.  Of course, no-one could possibly believe such a ridiculous "
+#~ "story."
+#~ msgstr ""
+#~ "La leggenda narra di nani che si immersero nel mare addattandosi alla "
+#~ "vita sottomarina. Ovviamente nessuno può credere davvero a una tale "
+#~ "sciocchezza."
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. The units of lower level around the Princess "
+#~ "will fight better due to her presence. The Princess is also nimble and "
+#~ "dextrous, having skills like that of a thief."
+#~ msgstr ""
+#~ "Nobile di nascita, la principessa ha imparato la scherma con i migliori "
+#~ "generali e le tattiche di guerra con i più grandi saggi, facendo di lei "
+#~ "una grande combattente e una grande condottiera. Le unità di livello "
+#~ "inferiore vicino alla principessa combatteranno meglio. La principessa è "
+#~ "anche leggiadra e dotata di grande destrezza, con abilità simili a quelle "
+#~ "dei ladri."
+
+#~ msgid ""
+#~ "Long ago one of the mightiest living creatures, the feared Dragon has "
+#~ "become only bones and dark sinew. Long after its death, it was raised "
+#~ "through the dark powers of necromancy, which it now serves. The Skeletal "
+#~ "Dragon may look like nothing more than a pile of bones, but few people "
+#~ "who thought that way lived long enough to change their minds."
+#~ msgstr ""
+#~ "Tanto tempo fa, una delle più temibili creature, lo spaventoso drago, "
+#~ "divenne solo ossa e desiderio di vendetta. Molto tempo dopo la sua morte "
+#~ "venne rianimato dai poteri oscuri della negromanzia di cui adesso è al "
+#~ "servizio. Il drago scheletrico può sembrare solo un'accozzaglia di ossa, "
+#~ "ma molte delle persone che la pensavano così non sono vissuti abbastanza "
+#~ "per poter cambiare idea in proposito."
+
+#~ msgid ""
+#~ "Cold and beautiful, she maintains her eternal youthful appearance "
+#~ "drinking the blood of the living."
+#~ msgstr ""
+#~ "Fredda e bella, mantiene la sua eterna giovinezza bevendo il sangue dei "
+#~ "vivi."
+
+#~ msgid "Please don't hurt me! Have you no pity?"
+#~ msgstr "Per favore, non farmi male! Non hai nessuna pietà?"
+
+#~ msgid "Your enemy has surrendered!"
+#~ msgstr "Il nemico si è arreso!"
+
+#~ msgid "impact"
+#~ msgstr "impatto"
+
+#~ msgid "fist"
+#~ msgstr "pugno"

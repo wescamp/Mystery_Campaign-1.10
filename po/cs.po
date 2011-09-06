@@ -1,130 +1,142 @@
+# translation of cs.po to Czech
+# Oto 'tapik' Buchta <tapik@buchtovi.cz>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Battle of Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 21:15-0400\n"
-"PO-Revision-Date: 2011-09-05 21:15-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"PO-Revision-Date: 2006-12-05 22:15+0100\n"
+"Last-Translator: Oto 'tapik' Buchta <tapik@buchtovi.cz>\n"
+"Language-Team: Czech <wesnoth-cs-l@nospam.buchtovi.cz>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: KBabel 1.11.2\n"
 
 #. [campaign]
-#: _main.cfg:15
+#: Mystery_Campaign/_main.cfg:15
 msgid "MC"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:18
+#: Mystery_Campaign/_main.cfg:18
 msgid "Mystery Campaign"
-msgstr ""
+msgstr "Záhadné tažení"
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "Skirmisher"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
+#, fuzzy
 msgid "(Easy)"
-msgstr ""
+msgstr "Snadná"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
+#, fuzzy
 msgid "(Not so easy)"
-msgstr ""
+msgstr "Ne tak lehká"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
+#, fuzzy
 msgid "(Nightmare)"
-msgstr ""
+msgstr "Noční můra"
 
 #. [campaign]
-#: _main.cfg:28
+#: Mystery_Campaign/_main.cfg:28
+#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
+"Toto je nekonečné, náhodné tažení. Během hry se různými způsoby zvyšuje "
+"obtížnost.  Kolik scénářů dokážeš dokončit?"
 
 #. [about]
-#: _main.cfg:31
+#: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:32
+#: Mystery_Campaign/_main.cfg:32
 msgid "Josh Parsons/jp30"
 msgstr ""
 
 #. [about]
-#: _main.cfg:35
+#: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:36
+#: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
 msgstr ""
 
 #. [about]
-#: _main.cfg:39
+#: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:40
+#: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
 msgstr ""
 
 #. [about]
-#: _main.cfg:43
+#: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
 msgstr ""
 
 #. [about]
-#: _main.cfg:44
+#: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
 msgstr ""
 
-#: utils/factions_config.cfg:43 factions/chaotic-humans.cfg:3
+#: Mystery_Campaign/utils/factions_config.cfg:43
+#: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:5 factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
+#: Mystery_Campaign/factions/chaotic-humans.cfg:24
 msgid "Cockatrice"
-msgstr ""
+msgstr "Bazilišek"
 
 #. [scenario]: id={ID}
-#: scenarios/mystery_scenario.cfg:5
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:5
 msgid "Mystery Scenario"
-msgstr ""
+msgstr "Záhadný scénář"
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:20
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
 msgstr ""
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:28
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -135,81 +147,273 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
+"Vítej, $player_leader|, toto je scénář číslo $scenario_number|.\n"
+"\n"
+"Mám $gold zlata a moje armáda ($enemy_faction) se skládá z následujících "
+"jednotek: $enemy_recruits|. \n"
+"\n"
+"Abys dokončil scénář, musíš mě porazit, nebo donutit se vzdát!"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:95
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:95
 msgid "Defeat enemy leader"
 msgstr ""
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:99
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:99
+#, fuzzy
 msgid "Enemy leader surrenders"
-msgstr ""
+msgstr "Tvůj nepřítel se vzdal"
 
 #. [objective]: condition=lose
-#: scenarios/mystery_scenario.cfg:103
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:103
 msgid "Death of your leader"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:19
+#: Mystery_Campaign/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
 "dangerous."
 msgstr ""
+"Jsou to záhadná stvoření o kterých se říká, že mohou přeměnit živého na "
+"kámen. Je zbytečné zdůrazňovat, že mohou být extrémně nebezpeční."
 
 #. [attack]: type=cold
-#: units/Cockatrice.cfg:23
+#: Mystery_Campaign/units/Cockatrice.cfg:23
 msgid "gaze"
-msgstr ""
+msgstr "pohled"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:20
+#: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
-msgstr ""
+msgstr "Za kterou frakci chceš hrát:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:22
+#: Mystery_Campaign/utils/02_config.cfg:22
+#, fuzzy
 msgid "Pick one for me!"
-msgstr ""
+msgstr "&random-enemy.png=Vyber pro mě!"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:38
+#: Mystery_Campaign/utils/02_config.cfg:38
 msgid "What type of unit should your leader be?"
-msgstr ""
+msgstr "Jaká jednotka má reprezentovat tvého vůdce?"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:51
+#: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
 msgstr ""
 
 #. [text_input]
-#: utils/02_config.cfg:54
+#: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:100
+#: Mystery_Campaign/utils/02_config.cfg:100
+#, fuzzy
 msgid "What funding level do you want for the campaign?"
-msgstr ""
+msgstr "Za kterou frakci chceš hrát:"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:102
+#: Mystery_Campaign/utils/02_config.cfg:102
 msgid "Classic"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:108
+#: Mystery_Campaign/utils/02_config.cfg:108
 msgid "Moderate"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:114
+#: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
 msgstr ""
 
 #. [message]
-#: utils/utils.cfg:96
+#: Mystery_Campaign/utils/utils.cfg:96
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
+msgstr "Ach, je to beznadějné! Vzdávám se!"
+
+#~ msgid "Elder Mage"
+#~ msgstr "Starý mág"
+
+#~ msgid "Battle Princess"
+#~ msgstr "Princezna boje"
+
+#~ msgid "Lord"
+#~ msgstr "Lord"
+
+#~ msgid "Elvish Marshal"
+#~ msgstr "Elfí maršál"
+
+#~ msgid "Elvish High Lord"
+#~ msgstr "Vysoký elfí lord"
+
+#~ msgid "Elvish Lord"
+#~ msgstr "Elfí lord"
+
+#~ msgid "Skeletal Dragon"
+#~ msgstr "Kostlivý drak"
+
+#~ msgid "Drakes"
+#~ msgstr "Draci"
+
+#~ msgid "Chaotic Humans"
+#~ msgstr "Chaotičtí lidé"
+
+#, fuzzy
+#~ msgid "Your leader surrenders"
+#~ msgstr "Tvůj nepřítel se vzdal"
+
+#~ msgid "female^Battle Princess"
+#~ msgstr "Princezna boje"
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals, and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. Now battle-hardened and strong of will, she "
+#~ "can now aid those around her in the art of combat."
+#~ msgstr ""
+#~ "Vznešená rodem, se princezna učila boji s mečem proti nejlepším generálům "
+#~ "a válečné taktice od těch nejmoudřejších, což jí dělá výtečnou bojovnicí "
+#~ "a vůdkyní. Zocelená bojem a se silnou vůlí má nyní schopnost ovlivňovat "
+#~ "okolní jednotky v jejich umění boje."
+
+#~ msgid "sabre"
+#~ msgstr "šavle"
+
+#~ msgid "Chocobone"
+#~ msgstr "Kostipštros"
+
+#~ msgid ""
+#~ "Riding the bones of ostrich-like large birds once used as mounts by a "
+#~ "lost civilization, the skeletal Chocobones can move faster than most "
+#~ "cavalry units."
+#~ msgstr ""
+#~ "Kostlivčí kostipštrosi se dokáží pohybovat rychleji než většina jízdních "
+#~ "jednotek, jedouce na kostech velikých ptáků podobných pštrosům, které "
+#~ "ztracená civilizace kdysi využívala jako jízdu."
+
+#~ msgid ""
+#~ "The rank of Commander is held by those who lead battle groups into "
+#~ "combat. Possessing leadership skills, they give lower-level units in "
+#~ "adjacent hexes improved performance in combat. Commanders are best "
+#~ "skilled with the sword, although they also carry a bow to use when "
+#~ "necessary. If the Commander is lost, so is the battle."
+#~ msgstr ""
+#~ "Hodnost velitele mají ti, kteří vedou jednotky do boje. Díky svým "
+#~ "vůdcovským schopnostem zvyšují na sousedních polích bojový výkon jednotek "
+#~ "nižší úrovně. Velitel zachází nejzručněji s mečem, ale když je třeba, "
+#~ "dokáže použít i luk. Padne-li velitel, je boj ztracen."
+
+#~ msgid ""
+#~ "Once great, Elder Magi have seen their power a little diminished from "
+#~ "wearying years of battle. Nevertheless they remain feared on the "
+#~ "battlefield on account of their powerful lightning bolts."
+#~ msgstr ""
+#~ "Starý mág byl kdysi velkým mágem, ale únavné roky bitev mu už něco sil "
+#~ "ubraly. Na bitevním poli je nicméně pro své mocné blesky stále obávaným "
+#~ "protivníkem."
+
+#~ msgid ""
+#~ "The leaders of the elves do not fall sallow and frail with age. Rather, "
+#~ "it is then that they grow to their true potential. Quiet and "
+#~ "contemplative in times of peace, a High Lord in the full of his wrath is "
+#~ "an awesome sight indeed."
+#~ msgstr ""
+#~ "Vůdcové elfů s rostoucím věkem neblednou ani neslábnou. Místo toho "
+#~ "dosahují svého skutečného potenciálu. Klidný a rozjímající v dobách míru, "
+#~ "rozhněvaný Vysoký lord je vskutku strašlivý a hrůzu nahánějící pohled."
+
+#~ msgid ""
+#~ "The nobility of the elves are possessed of merit to match their standing "
+#~ "in society. Elvish Lords are the wisest and strongest of their people, "
+#~ "and are fearsome in their command of magic."
+#~ msgstr ""
+#~ "Elfí šlechta si svoje postavení ve společnosti plně zasluhuje. Elfí lordi "
+#~ "jsou nejmoudřejšími a nejsilnějšími ze všech elfů a jejich schopnost "
+#~ "ovládání magie nahání hrůzu."
+
+#~ msgid "Fighter"
+#~ msgstr "Bojovník"
+
+#~ msgid ""
+#~ "Young and brash, Fighters fight with a sword, and are vulnerable to "
+#~ "attack from enemies. However they have the potential to become great "
+#~ "warriors one day."
+#~ msgstr ""
+#~ "Mladí a neomalení, Bojovníci používají k boji meč, vůči útokům "
+#~ "nepřátelských jednotek jsou zranitelní. Dřímá v nich však potenciál stát "
+#~ "se jednoho dne velkými válečníky."
+
+#~ msgid ""
+#~ "The noble leaders of many troops, Lords are especially strong in melee "
+#~ "combat, and also possess skill with the bow. Like Commanders, Lords "
+#~ "possess leadership skills, and improve the fighting ability of all "
+#~ "adjacent lower-level units."
+#~ msgstr ""
+#~ "Urození vůdci mnoha jednotek, lordi, jsou obzvlášť silní v boji na blízko "
+#~ "a také dokáží střílet z luku. Lordi, stejně jako Velitelé, mají vůdcovské "
+#~ "schopnosti a zdokonalují bojové schopnosti všech jednotek na nižší "
+#~ "úrovni, které jsou v jejich blízkosti."
+
+#~ msgid "Merdwarf"
+#~ msgstr "Vodní trpaslík"
+
+#~ msgid ""
+#~ "Legends tell of dwarves who took to the sea, and adapted to life "
+#~ "underwater.  Of course, no-one could possibly believe such a ridiculous "
+#~ "story."
+#~ msgstr ""
+#~ "Legendy vyprávějí o trpaslících, kteří se vydali na moře a přizpůsobili "
+#~ "se životu pod vodou. Samozřejme, že nikoho ani nenapadlo věřit tak "
+#~ "podivné historce."
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. The units of lower level around the Princess "
+#~ "will fight better due to her presence. The Princess is also nimble and "
+#~ "dextrous, having skills like that of a thief."
+#~ msgstr ""
+#~ "Princezna, urozená svým původem, se učila šermířskému umění od nejlepších "
+#~ "generálů a bojovou taktiku od těch nejmoudřejších a stala se jak dobrou "
+#~ "bojovnicí tak dobrým vůdcem. Jednotky s nižší úrovní než princezna budou "
+#~ "bojovat lépe už jen díky její blízkosti. Princezna je také hbitá a pružná "
+#~ "a svými dovednostmi předčí mnohé zloděje."
+
+#~ msgid ""
+#~ "Long ago one of the mightiest living creatures, the feared Dragon has "
+#~ "become only bones and dark sinew. Long after its death, it was raised "
+#~ "through the dark powers of necromancy, which it now serves. The Skeletal "
+#~ "Dragon may look like nothing more than a pile of bones, but few people "
+#~ "who thought that way lived long enough to change their minds."
+#~ msgstr ""
+#~ "Z obávaných draků, kteří před dávnými časy byli jedním z nejmocnějších "
+#~ "druhů zvířat, zbyly jen kosti a šlachy. Dlouho po jejich smrti je temné "
+#~ "síly nekromantie přivedli zpátky k životu – těmto silám nyní draci "
+#~ "slouží. Kostlivý drak sice na první pohled vypadá jen jako hromada kostí, "
+#~ "ale z těch, co takto smýšleli, zůstalo jen velice málo naživu dostatečně "
+#~ "dlouho, aby na věc stihli změnit názor."
+
+#~ msgid ""
+#~ "Cold and beautiful, she maintains her eternal youthful appearance "
+#~ "drinking the blood of the living."
+#~ msgstr ""
+#~ "Chladná a krásná, svůj věčně mladistvý vzhled udržuje díky popíjení krve "
+#~ "živých."
+
+#~ msgid "Please don't hurt me! Have you no pity?"
+#~ msgstr "Prosím, neubližuj mi! Což nemáš slitování"
+
+#~ msgid "Your enemy has surrendered!"
+#~ msgstr "Tvůj nepřítel se vzdal"
+
+#~ msgid "impact"
+#~ msgstr "úder"
+
+#~ msgid "fist"
+#~ msgstr "pěst"

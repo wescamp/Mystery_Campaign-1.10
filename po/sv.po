@@ -1,130 +1,140 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 21:15-0400\n"
-"PO-Revision-Date: 2011-09-05 21:15-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"PO-Revision-Date: 2007-05-27 17:32+0200\n"
+"Last-Translator: Stefan Bergström (tephlon) <stefan DOT bergstrom AT gmail "
+"DOT com>\n"
+"Language-Team: Swedish\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #. [campaign]
-#: _main.cfg:15
+#: Mystery_Campaign/_main.cfg:15
 msgid "MC"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:18
+#: Mystery_Campaign/_main.cfg:18
 msgid "Mystery Campaign"
-msgstr ""
+msgstr "Mysteriekampanjen"
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "Skirmisher"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:23
+#: Mystery_Campaign/_main.cfg:23
 msgid "(Easy)"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
+#, fuzzy
 msgid "(Not so easy)"
-msgstr ""
+msgstr "Inte så lätt"
 
 #. [campaign]
-#: _main.cfg:24
+#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
 msgstr ""
 
 #. [campaign]
-#: _main.cfg:25
+#: Mystery_Campaign/_main.cfg:25
+#, fuzzy
 msgid "(Nightmare)"
-msgstr ""
+msgstr "Mardröm"
 
 #. [campaign]
-#: _main.cfg:28
+#: Mystery_Campaign/_main.cfg:28
+#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
+"Detta är en oändligt lång, slumpmässigt utformad kampanj. Svårighetsgraden "
+"ökar allt eftersom du spelar. Hur många scenarier kan du klara av?"
 
 #. [about]
-#: _main.cfg:31
+#: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:32
+#: Mystery_Campaign/_main.cfg:32
 msgid "Josh Parsons/jp30"
 msgstr ""
 
 #. [about]
-#: _main.cfg:35
+#: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:36
+#: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
 msgstr ""
 
 #. [about]
-#: _main.cfg:39
+#: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: _main.cfg:40
+#: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
 msgstr ""
 
 #. [about]
-#: _main.cfg:43
+#: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
 msgstr ""
 
 #. [about]
-#: _main.cfg:44
+#: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
 msgstr ""
 
-#: utils/factions_config.cfg:43 factions/chaotic-humans.cfg:3
+#: Mystery_Campaign/utils/factions_config.cfg:43
+#: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:5 factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
+#: Mystery_Campaign/factions/chaotic-humans.cfg:24
 msgid "Cockatrice"
-msgstr ""
+msgstr "Basilisk"
 
 #. [scenario]: id={ID}
-#: scenarios/mystery_scenario.cfg:5
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:5
 msgid "Mystery Scenario"
-msgstr ""
+msgstr "Mysteriescenario"
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:20
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
 msgstr ""
 
 #. [side]
-#: scenarios/mystery_scenario.cfg:28
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -135,81 +145,265 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
+"Var hälsad, $player_leader|! Välkommen till scenario $scenario_number|.\n"
+"\n"
+"Jag har $gold guldstycken, och min $enemy_faction|armé består av följande "
+"truppslag: $enemy_recruits|. \n"
+"\n"
+"För att vinna scenariot så måste du besegra mig, eller tvinga mig till "
+"kapitulation!"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:95
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:95
 msgid "Defeat enemy leader"
-msgstr ""
+msgstr "Besegra fiendens ledare"
 
 #. [objective]: condition=win
-#: scenarios/mystery_scenario.cfg:99
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:99
 msgid "Enemy leader surrenders"
-msgstr ""
+msgstr "Fiendens ledare kapitulerar"
 
 #. [objective]: condition=lose
-#: scenarios/mystery_scenario.cfg:103
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:103
 msgid "Death of your leader"
-msgstr ""
+msgstr "Din ledare dör"
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: units/Cockatrice.cfg:19
+#: Mystery_Campaign/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
 "dangerous."
 msgstr ""
+"Dessa mystiska varelser sägs kunna förstena sina offer. Utan tvekan gör "
+"detta dem extremt farliga."
 
 #. [attack]: type=cold
-#: units/Cockatrice.cfg:23
+#: Mystery_Campaign/units/Cockatrice.cfg:23
 msgid "gaze"
-msgstr ""
+msgstr "blick"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:20
+#: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
-msgstr ""
+msgstr "Vilken fraktion vill du spela?"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:22
+#: Mystery_Campaign/utils/02_config.cfg:22
+#, fuzzy
 msgid "Pick one for me!"
-msgstr ""
+msgstr "&random-enemy.png=Välj ut en åt mig!"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:38
+#: Mystery_Campaign/utils/02_config.cfg:38
 msgid "What type of unit should your leader be?"
-msgstr ""
+msgstr "Vilken sorts ledare vill du ha?"
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:51
+#: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
 msgstr ""
 
 #. [text_input]
-#: utils/02_config.cfg:54
+#: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: utils/02_config.cfg:100
+#: Mystery_Campaign/utils/02_config.cfg:100
 msgid "What funding level do you want for the campaign?"
-msgstr ""
+msgstr "Vilken inkomstnivå vill du ha i kampanjen?"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:102
+#: Mystery_Campaign/utils/02_config.cfg:102
 msgid "Classic"
-msgstr ""
+msgstr "Klassisk"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:108
+#: Mystery_Campaign/utils/02_config.cfg:108
 msgid "Moderate"
-msgstr ""
+msgstr "Låg"
 
 #. [option]: speaker=narrator
-#: utils/02_config.cfg:114
+#: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
-msgstr ""
+msgstr "Hög"
 
 #. [message]
-#: utils/utils.cfg:96
+#: Mystery_Campaign/utils/utils.cfg:96
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
+msgstr "Nej, det är hopplöst! Jag ger upp!"
+
+#~ msgid "Elder Mage"
+#~ msgstr "Åldrad magiker"
+
+#~ msgid "Battle Princess"
+#~ msgstr "Stridsprinsessa"
+
+#~ msgid "Lord"
+#~ msgstr "Furste"
+
+#~ msgid "Elvish Marshal"
+#~ msgstr "Alvöverste"
+
+#~ msgid "Elvish High Lord"
+#~ msgstr "Alvstorfurste"
+
+#~ msgid "Elvish Lord"
+#~ msgstr "Alvfurste"
+
+#~ msgid "Skeletal Dragon"
+#~ msgstr "Skelettdrake"
+
+#~ msgid "Drakes"
+#~ msgstr "Drakfolket"
+
+#~ msgid "Chaotic Humans"
+#~ msgstr "Ljusskygga människor"
+
+#~ msgid "Your leader surrenders"
+#~ msgstr "Din ledare kapitulerar"
+
+#~ msgid "female^Battle Princess"
+#~ msgstr "Stridsprinsessa"
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals, and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. Now battle-hardened and strong of will, she "
+#~ "can now aid those around her in the art of combat."
+#~ msgstr ""
+#~ "Prinsessan är av ädel börd, och har utbildats i svärdskonst av de största "
+#~ "generalerna och i strategi av de största tänkarna. Genom denna utbildning "
+#~ "har hon blivit en stor krigare och ledare. Viljestark och härdad av "
+#~ "strider leder hon trupperna omkring henne i stridens hetta."
+
+#~ msgid "sabre"
+#~ msgstr "sabel"
+
+#~ msgid "Chocobone"
+#~ msgstr "Benryttare"
+
+#~ msgid ""
+#~ "Riding the bones of ostrich-like large birds once used as mounts by a "
+#~ "lost civilization, the skeletal Chocobones can move faster than most "
+#~ "cavalry units."
+#~ msgstr ""
+#~ "Dessa skelettkrigare rider på benen av enorma fåglar, vilka tros ha "
+#~ "använts av en uråldrig civilisation, och kan röra sig snabbare än de "
+#~ "flesta kavalleritrupper."
+
+#~ msgid ""
+#~ "The rank of Commander is held by those who lead battle groups into "
+#~ "combat. Possessing leadership skills, they give lower-level units in "
+#~ "adjacent hexes improved performance in combat. Commanders are best "
+#~ "skilled with the sword, although they also carry a bow to use when "
+#~ "necessary. If the Commander is lost, so is the battle."
+#~ msgstr ""
+#~ "Den som leder härar i strid kallas för befälhavare. Hans goda "
+#~ "ledarskapsförmåga får närliggande trupper av lägre rang att slåss bättre. "
+#~ "Han slåss själv helst med sitt svärd, men har också en båge om så behövs. "
+#~ "Om befälhavaren besegras är striden förlorad."
+
+#~ msgid ""
+#~ "Once great, Elder Magi have seen their power a little diminished from "
+#~ "wearying years of battle. Nevertheless they remain feared on the "
+#~ "battlefield on account of their powerful lightning bolts."
+#~ msgstr ""
+#~ "En gång stor har den åldrade magikern fått se sin kraft försvagad av "
+#~ "många tröttande år av strid. Den vördnadsvärde magikern är dock "
+#~ "fortfarande fruktad på stridsfältet för sina mäktiga åskviggars skull."
+
+#~ msgid ""
+#~ "The leaders of the elves do not fall sallow and frail with age. Rather, "
+#~ "it is then that they grow to their true potential. Quiet and "
+#~ "contemplative in times of peace, a High Lord in the full of his wrath is "
+#~ "an awesome sight indeed."
+#~ msgstr ""
+#~ "Alvernas ledare träder aldrig in i ålderdom och glömska, utan det är ofta "
+#~ "med åldern som deras kunskap och makt når sin fullbordan. I fredstider är "
+#~ "alvstorfurstarnas lugn och kontemplativa sinnelag ett ideal som få kan "
+#~ "uppnå, men i fullt vredesmod blir de verkligt imponerande."
+
+#~ msgid ""
+#~ "The nobility of the elves are possessed of merit to match their standing "
+#~ "in society. Elvish Lords are the wisest and strongest of their people, "
+#~ "and are fearsome in their command of magic."
+#~ msgstr ""
+#~ "Alvernas adel äger en lika stor kunskap som deras ställning kräver. "
+#~ "Alvfurstarna är de visaste och starkaste bland deras folk, och fruktas "
+#~ "bland andra raser för deras kunskaper i magi."
+
+#~ msgid "Fighter"
+#~ msgstr "Krigare"
+
+#~ msgid ""
+#~ "Young and brash, Fighters fight with a sword, and are vulnerable to "
+#~ "attack from enemies. However they have the potential to become great "
+#~ "warriors one day."
+#~ msgstr ""
+#~ "Den unge och obetänksamme krigaren slåss med ett svärd, och är sårbar för "
+#~ "attacker från fienden. Han besitter dock talang och lyckas han bara hålla "
+#~ "sig levande så kan han bli en mäktig krigare en dag."
+
+#~ msgid ""
+#~ "The noble leaders of many troops, Lords are especially strong in melee "
+#~ "combat, and also possess skill with the bow. Like Commanders, Lords "
+#~ "possess leadership skills, and improve the fighting ability of all "
+#~ "adjacent lower-level units."
+#~ msgstr ""
+#~ "Fursten är den adlige ledaren för stora mängder trupper. Han är särskilt "
+#~ "stark i närstrid, men inte heller oäven med bågen. Liksom befälhavare har "
+#~ "furstar ledarskapsförmåga, och förbättrar stridsförmågan hos alla lägre "
+#~ "rankade trupper i närheten."
+
+#~ msgid "Merdwarf"
+#~ msgstr "Havsdvärg"
+
+#~ msgid ""
+#~ "Legends tell of dwarves who took to the sea, and adapted to life "
+#~ "underwater.  Of course, no-one could possibly believe such a ridiculous "
+#~ "story."
+#~ msgstr ""
+#~ "Legenderna berättar om dvärgar som tog sin tillflykt till havet, och "
+#~ "anpassade sig till ett liv under vatten. Givetvis är det ingen som tror "
+#~ "på sådana löjliga amsagor."
+
+#~ msgid ""
+#~ "A noble by birth, the Princess has learnt swordplay with the greatest "
+#~ "generals and battle tactics with the greatest sages, making her both a "
+#~ "great combatant and leader. The units of lower level around the Princess "
+#~ "will fight better due to her presence. The Princess is also nimble and "
+#~ "dextrous, having skills like that of a thief."
+#~ msgstr ""
+#~ "Prinsessan är av ädel börd, och har utbildats i svärdskonst av de största "
+#~ "generalerna och i strategi av de största tänkarna. Detta har fått henne "
+#~ "att bli både en utsökt krigare och ledare. Lägre rankade trupper runt "
+#~ "omkring Prinsessan inspireras av hennes närvaro och kämpar bättre. "
+#~ "Prinsessan är både flink och smidig, och har tjuvliknande färdigheter."
+
+#~ msgid ""
+#~ "Long ago one of the mightiest living creatures, the feared Dragon has "
+#~ "become only bones and dark sinew. Long after its death, it was raised "
+#~ "through the dark powers of necromancy, which it now serves. The Skeletal "
+#~ "Dragon may look like nothing more than a pile of bones, but few people "
+#~ "who thought that way lived long enough to change their minds."
+#~ msgstr ""
+#~ "En gång i tiden de mäktigaste av de levande varelserna har den fruktade "
+#~ "draken blivit blott ben och senor. Lång tid efter dess död blev den "
+#~ "uppväckt från de döda genom nekromantins mörka krafter, som den nu tjänar "
+#~ "under. Skelettdraken ser kanske ut som en benhög, men få är de som har "
+#~ "levt länge nog för att komma bättre tankar."
+
+#~ msgid ""
+#~ "Cold and beautiful, she maintains her eternal youthful appearance "
+#~ "drinking the blood of the living."
+#~ msgstr ""
+#~ "Sval och vacker bibehåller hon sitt ungdomliga utseende genom att dricka "
+#~ "de levandes blod."
+
+#~ msgid "Please don't hurt me! Have you no pity?"
+#~ msgstr "Snälla, gör mig inte illa! Har du inget medlidande?"
+
+#~ msgid "Your enemy has surrendered!"
+#~ msgstr "Din fiende har kapitulerat!"
