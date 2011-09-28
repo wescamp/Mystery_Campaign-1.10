@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-05 22:46-0400\n"
+"POT-Creation-Date: 2011-09-28 07:39-0400\n"
 "PO-Revision-Date: 2007-05-10 18:55+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -167,6 +167,11 @@ msgstr ""
 msgid "gaze"
 msgstr ""
 
+#. [unit_type]: id=Wesfolk Outcast, race=human
+#: Mystery_Campaign/units/Wesfolk_Outcast.cfg:6
+msgid "female^Outcast"
+msgstr ""
+
 #. [message]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:20
 msgid "What faction do you want to play:"
@@ -210,6 +215,26 @@ msgstr ""
 #. [option]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:114
 msgid "Excessive"
+msgstr ""
+
+#. [damage]: id=charge
+#: Mystery_Campaign/utils/abilities.cfg:6
+#: Mystery_Campaign/utils/abilities.cfg:9
+msgid "counter"
+msgstr ""
+
+#. [damage]: id=charge
+#: Mystery_Campaign/utils/abilities.cfg:8
+#: Mystery_Campaign/utils/abilities.cfg:11
+msgid ""
+"Counter:\n"
+"When used defensively, this attack deals double damage to the target."
+msgstr ""
+
+#: Mystery_Campaign/utils/abilities.cfg:19
+msgid ""
+"This unit counters effectively income hits, causing vaste damage on the "
+"unprotected target"
 msgstr ""
 
 #. [message]
