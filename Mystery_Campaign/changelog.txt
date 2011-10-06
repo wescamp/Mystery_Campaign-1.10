@@ -1,0 +1,16 @@
+
+1.0.0
+ -first release
+
+1.0.1
+ - updated translations
+ - added latin
+ - bugfixes
+
+1.0.2
+ - added this changelog
+ - added khalifate fraction
+ - updated translations
+ - added galician
+
+### trewe sjrs456 at yahoo dot fr ###
