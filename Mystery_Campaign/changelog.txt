@@ -11,6 +11,10 @@
  - added this changelog
  - added khalifate fraction
  - updated translations
- - added galician
+ - added galician translation
+
+1.0.3
+ - removed khalifate
+ - added netherlands translation
 
 ### trewe sjrs456 at yahoo dot fr ###
