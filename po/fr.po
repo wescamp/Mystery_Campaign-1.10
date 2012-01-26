@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2011-09-28 07:39-0400\n"
-"PO-Revision-Date: 2007-05-22 15:09+0100\n"
-"Last-Translator: Damien <guydelatour@gloireetpouvoir.com>\n"
+"PO-Revision-Date: 2012-01-18 13:56+0100\n"
+"Last-Translator: Guigou Guillaume <guillaume.guigou@orange.fr>\n"
 "Language-Team: Language fr <wesnoth@ml.free.fr>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:15
 msgid "MC"
-msgstr ""
+msgstr "CM"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:18
@@ -24,40 +24,38 @@ msgstr "Campagne mystère"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:23
+#, fuzzy
 msgid "Skirmisher"
-msgstr ""
+msgstr "Tirailleur"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:23
-#, fuzzy
 msgid "(Easy)"
-msgstr "Facile"
+msgstr "(Facile)"
+
+#. [campaign]
+#: Mystery_Campaign/_main.cfg:24
+msgid "(Not so easy)"
+msgstr "(Pas si facile)"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:24
 #, fuzzy
-msgid "(Not so easy)"
-msgstr "Pas si facile"
-
-#. [campaign]
-#: Mystery_Campaign/_main.cfg:24
 msgid "Battle Tutor"
-msgstr ""
+msgstr "La bataille Tutor"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:25
 msgid "Veteran"
-msgstr ""
+msgstr "Vétéran"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:25
-#, fuzzy
 msgid "(Nightmare)"
-msgstr "Cauchemar"
+msgstr "(Cauchemar)"
 
 #. [campaign]
 #: Mystery_Campaign/_main.cfg:28
-#, fuzzy
 msgid ""
 "This is an infinitely long, random, campaign. As you play, it gets "
 "increasing difficult in various ways. How many scenarios can you complete?"
@@ -69,47 +67,48 @@ msgstr ""
 #. [about]
 #: Mystery_Campaign/_main.cfg:31
 msgid "Campaign Designer"
-msgstr ""
+msgstr "Conception de la campagne"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:32
+#, fuzzy
 msgid "Josh Parsons/jp30"
-msgstr ""
+msgstr "Josh Parsons/jp30"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:35
 msgid "Previous Maintainer"
-msgstr ""
+msgstr "Mainteneur précédent"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:36
 msgid "zaimoni"
-msgstr ""
+msgstr "zaimoni"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:39
 msgid "Current Maintainer"
-msgstr ""
+msgstr "Mainteneur actuel"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:40
 msgid "trewe"
-msgstr ""
+msgstr "trewe"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:43
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Autres"
 
 #. [about]
 #: Mystery_Campaign/_main.cfg:44
 msgid "Patched by: ott, ivanovic, szopen"
-msgstr ""
+msgstr "Corrigés par : ott, ivanovic, szopen"
 
 #: Mystery_Campaign/utils/factions_config.cfg:43
 #: Mystery_Campaign/factions/chaotic-humans.cfg:3
 msgid "Outlaws"
-msgstr ""
+msgstr "Hors la loi"
 
 #. [unit_type]: id=Cockatrice, race=monster
 #: Mystery_Campaign/units/Cockatrice.cfg:5
@@ -125,16 +124,15 @@ msgstr "Scénario mystère"
 #. [side]
 #: Mystery_Campaign/scenarios/mystery_scenario.cfg:20
 msgid "Contester"
-msgstr ""
+msgstr "Contestataire"
 
 #. [side]
 #: Mystery_Campaign/scenarios/mystery_scenario.cfg:28
 msgid "Opponent"
-msgstr ""
+msgstr "Opposant"
 
 #. [message]
 #: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
-#, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>\n"
@@ -145,10 +143,12 @@ msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
-"Salutations, $player_leader|, bienvenue au scénario $scenario_number|.\n"
+"Salutations, $leader1.language_name $leader1.name|, bienvenue au scénario "
+"<span foreground='green'><big>$scenario_number|</big></span>.\n"
 "\n"
-"J'ai $gold pièces d'or et mon armée de $enemy_faction comprend les types "
-"d'unités suivants : $enemy_recruits|.\n"
+"J'ai <span foreground='yellow'>$gold|</span> pièces d'or et mon armée de <b>"
+"$enemy_faction|</b> comprend les types d'unités suivants : <i>"
+"$enemy_recruits|</i>.\n"
 "\n"
 "Pour réussir ce scénario, vous devez me vaincre ou me forcer à me rendre !"
 
@@ -185,8 +185,9 @@ msgstr "regard"
 
 #. [unit_type]: id=Wesfolk Outcast, race=human
 #: Mystery_Campaign/units/Wesfolk_Outcast.cfg:6
+#, fuzzy
 msgid "female^Outcast"
-msgstr ""
+msgstr "Proscrite"
 
 #. [message]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:20
@@ -195,9 +196,8 @@ msgstr "Quelle faction voulez-vous jouer :"
 
 #. [option]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:22
-#, fuzzy
 msgid "Pick one for me!"
-msgstr "&random-enemy.png=Choisis-en une pour moi !"
+msgstr "Choisissez-en un pour moi !"
 
 #. [message]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:38
@@ -207,12 +207,12 @@ msgstr "De quel type d'unité sera votre seigneur ?"
 #. [message]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:51
 msgid "Please enter your name."
-msgstr ""
+msgstr "S'il vous plaît entrer votre nom."
 
 #. [text_input]
 #: Mystery_Campaign/utils/02_config.cfg:54
 msgid "My name is"
-msgstr ""
+msgstr "Mon nom est"
 
 #. [message]: speaker=narrator
 #: Mystery_Campaign/utils/02_config.cfg:100
@@ -237,16 +237,21 @@ msgstr "Excessif"
 #. [damage]: id=charge
 #: Mystery_Campaign/utils/abilities.cfg:6
 #: Mystery_Campaign/utils/abilities.cfg:9
+#, fuzzy
 msgid "counter"
-msgstr ""
+msgstr "Contrer"
 
 #. [damage]: id=charge
 #: Mystery_Campaign/utils/abilities.cfg:8
 #: Mystery_Campaign/utils/abilities.cfg:11
+#, fuzzy
 msgid ""
 "Counter:\n"
 "When used defensively, this attack deals double damage to the target."
 msgstr ""
+"Contrer :\n"
+"Lorsqu'elle est utilisée de manière défensive, cette attaque inflige le "
+"double de dégâts à la cible."
 
 #: Mystery_Campaign/utils/abilities.cfg:19
 msgid ""
