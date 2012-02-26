@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-09-28 07:39-0400\n"
+"POT-Creation-Date: 2012-02-26 17:22+0100\n"
 "PO-Revision-Date: 2007-05-27 17:32+0200\n"
 "Last-Translator: Stefan Bergström (tephlon) <stefan DOT bergstrom AT gmail "
 "DOT com>\n"
@@ -112,8 +112,8 @@ msgid "Outlaws"
 msgstr ""
 
 #. [unit_type]: id=Cockatrice, race=monster
-#: Mystery_Campaign/units/Cockatrice.cfg:5
 #: Mystery_Campaign/factions/chaotic-humans.cfg:24
+#: Mystery_Campaign/units/Cockatrice.cfg:5
 msgid "Cockatrice"
 msgstr "Basilisk"
 
@@ -133,7 +133,7 @@ msgid "Opponent"
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:89
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:85
 #, fuzzy
 msgid ""
 "Greetings, $leader1.language_name $leader1.name|, welcome to scenario <span "
@@ -241,8 +241,8 @@ msgid "counter"
 msgstr ""
 
 #. [damage]: id=charge
-#: Mystery_Campaign/utils/abilities.cfg:8
-#: Mystery_Campaign/utils/abilities.cfg:11
+#: Mystery_Campaign/utils/abilities.cfg:7
+#: Mystery_Campaign/utils/abilities.cfg:10
 msgid ""
 "Counter:\n"
 "When used defensively, this attack deals double damage to the target."
