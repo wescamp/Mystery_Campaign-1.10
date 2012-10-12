@@ -17,4 +17,11 @@
  - removed khalifate
  - added netherlands translation
 
+1.2
+ - added extended era factions (dark legion, dark elves, aragwaithi, frontiers, khalifate)
+ - adjusted moderate difficulty
+ - small chance of an ally appearing
+ - now after scenario 12 the campaign can be won
+ - balancing & testing
+
 ### trewe sjrs456 at yahoo dot fr ###
