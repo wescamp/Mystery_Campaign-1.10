@@ -8,7 +8,7 @@ if( index_of('slowed',keys(target.states)) != -1 or index_of('poisoned',keys(tar
 if( target.abilities,
 	if( index_of('healing', target.abilities) != -1, 20, 0 ) +
 		if( index_of('curing', target.abilities) != -1, 25, 0 ) +
-		if( index_of('steadfast', target.abilities) != -1, 10, 0 ) +
+		if( index_of('steadfast', target.abilities) != -1, 15, 0 ) +
 		if( index_of('skirmisher', target.abilities) != -1, 75, 0 ) +
 		if( index_of('inspire', target.abilities) != -1, 50, 0 ) +
 		if( index_of('leadership', target.abilities) != -1, 50, 0 ),
@@ -16,6 +16,6 @@ if( target.abilities,
 ) +
 
 defense_on(target, target.loc)
-- 4 * max_possible_damage_with_retaliation(me, target)[values(filter(['melee' -> 2, 'ranged' -> 3], key=me.attacks[index_of(['curse'],map(me.attacks,special))].range))[0]]
+- 6 * max_possible_damage_with_retaliation(me, target)[values(filter(['melee' -> 2, 'ranged' -> 3], key=me.attacks[index_of(['curse'],map(me.attacks,special))].range))[0]]
 
 faiend
