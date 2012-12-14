@@ -3,7 +3,7 @@ fai 'curse_attack.fai'
 {AI_CA_COMBAT_SCORE} + 500 +
 if( target.leader, 100, 0 ) +
 
-if( index_of('slowed',keys(target.states)) != -1 or index_of('poisoned',keys(target.states)) != -1, -100,0 ) +
+if( index_of('slowed',keys(target.states)) != -1 or index_of('poisoned',keys(target.states)) != -1, -200,0 ) +
 
 if( target.abilities,
 	if( index_of('healing', target.abilities) != -1, 20, 0 ) +

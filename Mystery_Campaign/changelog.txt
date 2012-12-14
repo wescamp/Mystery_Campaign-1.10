@@ -33,4 +33,13 @@
 1.5.2
  - fixed a strange bug (extra_recruit is allowed inside [multiplayer_side])
 
+1.5.5
+ - run wmltools over the campaign
+ - cleaned code from unused hacks
+ - finished Dark Legion faction (somehow I had forgotten them)
+ - furter conversation to 1.11 (multiplayer)
+ - updated credits
+ - updated translations
+ - added a rank to the campaign
+
 ### trewe sjrs456 at yahoo dot fr ###
