@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-23 23:23+0200\n"
+"POT-Creation-Date: 2012-12-14 07:18-0500\n"
 "PO-Revision-Date: 2005-11-13 17:51+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -59,49 +59,34 @@ msgid ""
 "increasing difficult in various ways. How many scenarios can you complete?"
 msgstr ""
 
-#. [about]
-#: Mystery_Campaign/_main.cfg:31
-msgid "Campaign Designer"
+#. [unit_type]: id=EE_dummy_unit
+#: Mystery_Campaign/_main.cfg:75
+msgid "dummy_unit^Random No Mirror"
 msgstr ""
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:32
-msgid "Josh Parsons/jp30"
+#: Mystery_Campaign/credits.cfg:6
+msgid "Campaign Design"
 msgstr ""
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:35
-msgid "Previous Maintainer"
-msgstr ""
-
-#. [about]
-#: Mystery_Campaign/_main.cfg:36
-msgid "zaimoni"
-msgstr ""
-
-#. [about]
-#: Mystery_Campaign/_main.cfg:39
+#: Mystery_Campaign/credits.cfg:13
 msgid "Current Maintainer"
 msgstr ""
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:40
-msgid "trewe"
+#: Mystery_Campaign/credits.cfg:19
+msgid "Previous Maintainer"
 msgstr ""
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:43
-msgid "Miscellaneous"
+#: Mystery_Campaign/credits.cfg:25
+msgid "WML Contribution"
 msgstr ""
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:44
-msgid "Patched by: ott, ivanovic, szopen"
-msgstr ""
-
-#. [unit_type]: id=EE_dummy_unit
-#: Mystery_Campaign/_main.cfg:89
-msgid "dummy_unit^Random No Mirror"
+#: Mystery_Campaign/credits.cfg:39
+msgid "Translations"
 msgstr ""
 
 #. [era]: id=era_extended
@@ -109,32 +94,32 @@ msgstr ""
 msgid "Extended Era"
 msgstr ""
 
-#. [multiplayer_side]: id=aragwaithi, type=EE Aragwaith Flagbearer
+#. [multiplayer_side]: id=aragwaithi, type=random
 #: Mystery_Campaign/factions/aragwaithi.cfg:5
 msgid "Aragwaithi"
 msgstr ""
 
-#. [multiplayer_side]: id=dark_elves, type=EE Dark Elf Captain
+#. [multiplayer_side]: id=dark_elves, type=random
 #: Mystery_Campaign/factions/dark_elves.cfg:5
 msgid "Dark Elves"
 msgstr ""
 
-#. [multiplayer_side]: id=dark_legion, type=EE Chaos Knight
+#. [multiplayer_side]: id=dark_legion, type=random
 #: Mystery_Campaign/factions/dark_legion.cfg:5
 msgid "Dark Legion"
 msgstr ""
 
-#. [multiplayer_side]: id=frontiers, type=EE Warrior
+#. [multiplayer_side]: id=frontiers, type=random
 #: Mystery_Campaign/factions/frontiers.cfg:5
 msgid "Frontiers"
 msgstr ""
 
-#. [multiplayer_side]: id=khalifate, type=EE Muharib
+#. [multiplayer_side]: id=khalifate, type=random
 #: Mystery_Campaign/factions/khalifate.cfg:5
 msgid "Khalifate"
 msgstr ""
 
-#. [multiplayer_side]: id=outlaws, type=Wesfolk Lady
+#. [multiplayer_side]: id=outlaws, type=random
 #: Mystery_Campaign/factions/outlaws.cfg:5
 msgid "Outlaws"
 msgstr ""
@@ -2454,9 +2439,7 @@ msgid ""
 "But the defense value can't go lower than 20%."
 msgstr ""
 
-#. [then]
 #: Mystery_Campaign/utils/curse.cfg:62 Mystery_Campaign/utils/curse.cfg:100
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
 msgid "cursed"
 msgstr ""
 
@@ -2464,419 +2447,14 @@ msgstr ""
 msgid "female^cursed"
 msgstr ""
 
+#: Mystery_Campaign/utils/curse.cfg:222
+msgid ""
+"cursed: This unit is cursed. It gets a 20% defense penalty on every terrain."
+msgstr ""
+
 #. [message]
 #: Mystery_Campaign/utils/utils.cfg:235
 msgid "Oh, it's hopeless! I surrender!"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:27
-msgid "rotten"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:34
-msgid "cracked"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:34
-#: Mystery_Campaign/utils/weapon_drop.cfg:44
-msgid "discarded"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:34
-#: Mystery_Campaign/utils/weapon_drop.cfg:44
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
-msgid "useless"
-msgstr ""
-
-#. [case]
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:44
-#: Mystery_Campaign/utils/weapon_drop.cfg:96
-msgid "worn"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:51
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
-msgid "damaged"
-msgstr ""
-
-#. [case]
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:51
-#: Mystery_Campaign/utils/weapon_drop.cfg:96
-msgid "rusty"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:65
-msgid "unbalanced"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:72
-msgid "rigid"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:72
-msgid "chipped"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:72
-#: Mystery_Campaign/utils/weapon_drop.cfg:89
-msgid "inferior"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:82
-msgid "ill-made"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:82
-msgid "loose"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:89
-msgid "poor"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:96
-msgid "old"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:110
-msgid "crafted"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:117
-msgid "balanced"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:117
-msgid "recurve"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:127
-msgid "woven"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:134
-msgid "new"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:134
-msgid "ligth"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:134
-msgid "good"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:134
-msgid "light"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:147
-msgid "ebony"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:154
-msgid "flexible"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:154
-msgid "sharp"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:164
-msgid "knotted"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:171
-msgid "quality"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:171
-msgid "fine"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:171
-msgid "well-crafted"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:178
-msgid "glorious"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:178
-msgid "mighty"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:178
-msgid "superior"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:178
-msgid "excellent"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:184
-msgid "sigiled"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:184
-msgid "glowing"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:184
-msgid "runed"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:184
-msgid "enchanted"
-msgstr ""
-
-#. [else]
-#: Mystery_Campaign/utils/weapon_drop.cfg:189
-msgid "legendary"
-msgstr ""
-
-#. [else]
-#: Mystery_Campaign/utils/weapon_drop.cfg:189
-msgid "mythic"
-msgstr ""
-
-#. [else]
-#: Mystery_Campaign/utils/weapon_drop.cfg:189
-msgid "fabled"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:207
-msgid "drakish"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:211
-msgid "dwarvish"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:215
-msgid "elvish"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:219
-msgid "goblin"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:223
-msgid "gryphlet"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:227
-msgid "human"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:231
-msgid "lizard"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:235
-msgid "seafolk"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:239
-msgid "naga"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:243
-msgid "orcish"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:247
-msgid "ogre"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:251
-msgid "troll"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:255
-msgid "dark"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:259
-msgid "demonic"
-msgstr ""
-
-#. [case]
-#: Mystery_Campaign/utils/weapon_drop.cfg:267
-msgid "an"
-msgstr ""
-
-#. [else]
-#: Mystery_Campaign/utils/weapon_drop.cfg:270
-msgid "a"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:289
-msgid "female^$second_unit.name the $second_unit.language_name|"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:290
-msgid ""
-"female^I took $item.article $item.name from the defeated $unit."
-"language_name|."
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:295
-msgid "$second_unit.name the $second_unit.language_name|"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:296
-msgid "I took $item.article $item.name from the defeated $unit.language_name|."
-msgstr ""
-
-#. [set_menu_item]: id=discard_weapon
-#: Mystery_Campaign/utils/weapon_drop.cfg:558
-msgid "Discard Weapon"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:580
-msgid "<span color='red'><b><i>Discard</i></b> a weapon<big>?</big></span>"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:581
-msgid "Remember, discarded weapons are trashed and cannot be reclaimed."
-msgstr ""
-
-#. [option]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:587
-msgid "*<span color='green'><b>No</b>, keep all weapons</span>"
-msgstr ""
-
-#: Mystery_Campaign/utils/weapon_drop.cfg:600
-msgid ""
-"<span color='light blue'><b>Yes</b>, discard $unit.attack[{NUMBER}]."
-"description ($unit.attack[{NUMBER}].damage|-$unit.attack[{NUMBER}].number "
-"$unit.attack[{NUMBER}].range $unit.attack[{NUMBER}].type)</span>"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:606
-msgid ""
-"<span color='gold'>Discard $unit.attack[{NUMBER}].description ($unit.attack"
-"[{NUMBER}].damage|-$unit.attack[{NUMBER}].number $unit.attack[{NUMBER}]."
-"range $unit.attack[{NUMBER}].type): <b>are you sure<big>?</big></b></span>"
-msgstr ""
-
-#. [option]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:608
-msgid "<b>Yes</b>"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:613
-#: Mystery_Campaign/utils/weapon_drop.cfg:652
-#: Mystery_Campaign/utils/weapon_drop.cfg:663
-#: Mystery_Campaign/utils/weapon_drop.cfg:678
-#: Mystery_Campaign/utils/weapon_drop.cfg:684
-msgid "$unit.name the $unit.language_name|"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:614
-msgid "No! I refuse to discard my beloved $unit.attack[{NUMBER}].description|."
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
-msgid "broken"
-msgstr ""
-
-#. [then]
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
-msgid " useless"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:653
-msgid "At last! I got rid of that $|random_string weapon!"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:664
-msgid ""
-"That was a realy powerful artifact. I will miss the $unit.attack[{NUMBER}]."
-"description|"
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:679
-msgid ""
-"I discarded my $unit.attack[{NUMBER}].description ($unit.attack[{NUMBER}]."
-"damage|-$unit.attack[{NUMBER}].number $unit.attack[{NUMBER}].range $unit."
-"attack[{NUMBER}].type|)."
-msgstr ""
-
-#. [chat]
-#: Mystery_Campaign/utils/weapon_drop.cfg:685
-msgid "No. I decided to keep my $unit.attack[{NUMBER}].description|"
-msgstr ""
-
-#. [option]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:695
-msgid "*<b>No</b>"
 msgstr ""
 
 #~ msgid "impact"
