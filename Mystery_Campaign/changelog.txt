@@ -42,4 +42,26 @@
  - updated translations
  - added a rank to the campaign
 
+1.5.6
+ BALANCE
+	- arif: -4hp
+	- hakim: -1 cost; no extra_heals just heal; healty trait (musthave) *
+	- jundi: -1 cost; +1 melee; -3 ranged; -1hp
+	- rami: -1hp; +5xp; +1 cost
+	- Monavish: -2xp
+	- Muharib: +1 melee; -3 ranged
+	- tabib: no cures; extra_heals; healthy trait (musthave) *
+	- Batal: +1 melee; -3 ranged
+	- Dark Elf Captain: +3xp
+	- Warrior: -2xp
+	- Corsair: attack 7-7 => 9-6
+	- Pillager: -1 attack
+	- Scorcher: -2 melee
+	- Bear: -2 melee
+	- dark elves: +10 def frozen
+	- aragwaithi archer: +1hp;
+	- aragwaithi spearman: +1xp; firststrike => vigilance
+	- khalifate spearmans: firststrike => evade
+		* with healthy it means +10 curing on village, always
+
 ### trewe sjrs456 at yahoo dot fr ###
