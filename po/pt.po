@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-10 00:42-0500\n"
+"POT-Creation-Date: 2013-02-26 22:30-0500\n"
 "PO-Revision-Date: 2005-05-05 14:28+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -674,24 +674,24 @@ msgid "Contester"
 msgstr ""
 
 #. [side]: id=p2
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:43
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:54
 msgid "Opponent"
 msgstr ""
 
 #. [side]: id=p3
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:58
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:69
 msgid "Allies"
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:174
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:185
 msgid ""
 "Greetings, $leader.language_name $leader.name|, welcome to scenario <span "
 "foreground='green'><big>$scenario_number|</big></span>"
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:175
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:186
 msgid ""
 "\n"
 "I have <span foreground='yellow'>$gold|</span> gold, and my army of <b>"
@@ -700,14 +700,14 @@ msgid ""
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:177
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:188
 msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
 msgstr ""
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:194
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:205
 msgid ""
 "I have came with my faction of <b>$ally|</b> and the following recruits: <i>"
 "$side_3.recruits|</i> to help $leader.name with his battle against the fools "
@@ -715,44 +715,44 @@ msgid ""
 msgstr ""
 
 #. [objectives]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:199
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:210
 msgid ""
 "<span color='light blue'>Scenario <b>$scenario_number|</b> against <b>$enemy|"
 "</b></span>"
 msgstr ""
 
 #. [objective]: condition=win
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:201
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:212
 msgid "Defeat the enemy leader"
 msgstr ""
 
 #. [objective]: condition=win
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:205
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:216
 msgid "The enemy leader surrenders"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:209
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:220
 msgid "Death of your leader before scenario 12"
 msgstr ""
 
 #. [objectives]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:217
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:228
 msgid "Recruitment list"
 msgstr ""
 
 #. [note]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:219
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:230
 msgid "Your recruits: <i>$side_1.recruits|</i>"
 msgstr ""
 
 #. [note]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:222
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:233
 msgid "Enemy recruits: <i>$side_2.recruits|</i>"
 msgstr ""
 
 #. [endlevel]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:269
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:280
 msgid "Defeated"
 msgstr ""
 
@@ -814,8 +814,11 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#. [petrifies]: id=escape
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Master.cfg:37
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Rider.cfg:34
+#: Mystery_Campaign/utils/abilities.cfg:247
+#: Mystery_Campaign/utils/abilities.cfg:248
 msgid "prey crush"
 msgstr ""
 
@@ -888,7 +891,7 @@ msgid "Aragwaithi^Lancer"
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Lancer.cfg:172
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Lancer.cfg:175
 msgid "Aragwaithi+female^Lancer"
 msgstr ""
 
@@ -924,7 +927,7 @@ msgid "Aragwaithi^Scout"
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Scout.cfg:67
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Scout.cfg:70
 msgid "Aragwaithi+female^Scout"
 msgstr ""
 
@@ -950,7 +953,7 @@ msgid "Aragwaithi^Silver Shield"
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Silver_Shield.cfg:279
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Silver_Shield.cfg:282
 msgid "Aragwaithi+female^Silver Shield"
 msgstr ""
 
@@ -974,7 +977,7 @@ msgid "Aragwaithi+female^Sorceress"
 msgstr ""
 
 #. [unit_type]: id=EE Aragwaith Sorceress, race=aragwaith
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Sorcerer.cfg:20
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Sorcerer.cfg:21
 msgid ""
 "The mighty Aragwaith Sorceresses are gracile like wind. They can confuse "
 "their oponents by standing in fron of them, seemingly defenseless; after the "
@@ -1051,7 +1054,7 @@ msgid "Aragwaithi+female^Witch"
 msgstr ""
 
 #. [unit_type]: id=EE Aragwaith Witch, race=aragwaith
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Witch.cfg:79
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Witch.cfg:80
 msgid ""
 "The magically inclined ones among the Aragwaith recieve not only the martial "
 "training so common in Aragwaithi society, but also in the art of healing, "
@@ -1060,7 +1063,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Mystery_Campaign/units/aragwaithi/Aragwaith_Witch.cfg:128
+#: Mystery_Campaign/units/aragwaithi/Aragwaith_Witch.cfg:129
 msgid "kick"
 msgstr ""
 
@@ -1069,71 +1072,12 @@ msgstr ""
 msgid "Aragwaithi+female^Wizard"
 msgstr ""
 
-#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Captain.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:5
-msgid "Dark Elf Captain"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Captain.cfg:21
-#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:21
-msgid ""
-"These Elves have been an example to their fellow soldiers, and have gained "
-"the rank of Captain. Although they can never become Lords, they still strive "
-"to do their best to defend the Matron Mother with their swords and short "
-"spears."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Cleric.cfg:5
-#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:5
-msgid "female^Dark Elf Cleric"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Cleric.cfg:22
-#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:22
-msgid ""
-"A Cleric is adapt at both their magical abilities and the use of their "
-"maces, as the Dwarves have found out. They have the cure ability, a tool "
-"they use for their sadistic pleasure. Terribly seductive, they are both "
-"feared and admired for their beauty and cruelty."
-msgstr ""
-
-#. [attack]: type=fire
-#: Mystery_Campaign/units/dark_elves/Cleric.cfg:35
-#: Mystery_Campaign/units/dark_elves/Enchantress.cfg:31
-#: Mystery_Campaign/units/dark_elves/Sorceress.cfg:34
-#: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:31
-#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:34
-#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:35
-msgid "magic torture"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Corsair.cfg:5
-#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:5
-msgid "Dark Elf Corsair"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Corsair.cfg:18
-#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:18
-msgid ""
-"No single being can stand before a Dark Elf Corsair. If you every see one, "
-"run. With they're razor sharp swords, they can splice and dice a dwarves "
-"beard."
-msgstr ""
-
 #. [unit_type]: id=EE Dark Elf Enchantress, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Enchantress.cfg:5
 #: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:5
 msgid "female^Dark Elf Enchantress"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Enchantress, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Enchantress.cfg:18
 #: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:18
 msgid ""
 "The women of the Dark Elves often join the Order of the Clerics at a very "
@@ -1143,14 +1087,19 @@ msgid ""
 "Sorceress."
 msgstr ""
 
+#. [attack]: type=fire
+#: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:31
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:34
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:35
+msgid "magic torture"
+msgstr ""
+
 #. [unit_type]: id=EE Dark Elf Fighter, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Fighter.cfg:5
 #: Mystery_Campaign/units/dark_elves/l1_Fighter.cfg:5
 msgid "Dark Elf Fighter"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Fighter, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Fighter.cfg:17
 #: Mystery_Campaign/units/dark_elves/l1_Fighter.cfg:17
 msgid ""
 "The initiates in their House army, many Fighters die because of lack of "
@@ -1158,14 +1107,190 @@ msgid ""
 "fighting for the Matron Mother."
 msgstr ""
 
+#. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:5
+msgid "Dark Elf Hunter"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:21
+msgid ""
+"Lurking in the ever dark depths of the caves, the Hunters move around with "
+"out a sound, except for the twang of their crossbows."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:5
+msgid "Lizard Rider"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:18
+msgid ""
+"From childhood, they have been training with their beast, feeding it, "
+"healing it, and sleeping with it. It is their duty to scout ahead into the "
+"unknown, to go where no Dark Elf has gone before. Some day, they will become "
+"Master of the Lizard."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Noble, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:5
+msgid "Dark Elf Noble"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Noble, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:20
+msgid ""
+"The young Lords are rash and brave. They have spent their entire childhood "
+"training with the sword, and have been taught from the best Marshals "
+"battlefield tactics. They have highly decorative shields that they use in "
+"battle to attack and encourage their troops."
+msgstr ""
+
+#. [attack]: type=impact
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:35
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:35
+#: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:36
+#: Mystery_Campaign/units/dark_legion/L2_Doom_Guard.cfg:35
+#: Mystery_Campaign/units/dark_legion/L3_Hell_Guardian.cfg:36
+msgid "shield"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:5
+msgid "Dark Elf Wizard"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:19
+msgid ""
+"Some Dark Elves prefer studying the arcane arts over close-combat. Usually "
+"they are left to the lesser duties of the House, such as upkeep, watching "
+"the slaves, and other such things. However, in time of conflict, they can do "
+"great damage, even though they lack any training in close-combat."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:5
+msgid "Dark Elf Captain"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:21
+msgid ""
+"These Elves have been an example to their fellow soldiers, and have gained "
+"the rank of Captain. Although they can never become Lords, they still strive "
+"to do their best to defend the Matron Mother with their swords and short "
+"spears."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:5
+msgid "Lizard Master"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:19
+msgid ""
+"Though the Lizards are not as fast as horses, they are much more powerful. "
+"Many an Dwarf has been cut in two by it's strong jaws. It would be well to "
+"recruit several of these powerful units."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lord, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:5
+msgid "Dark Elf Lord"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Lord, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:20
+msgid ""
+"Highly decorated, These men have gained the title of Lord through their "
+"cunning, their prowess, bravery, and strength. They command their provinces, "
+"lead their men in battle, and hold the law with an iron grip. They lead as "
+"an example to the life of a warrior in the realm of the Dark Elves."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:5
+msgid "Dark Elf Sorcerer"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:19
+msgid ""
+"Sorcerers are Wizards that have gone deeper into the studying of the arcane "
+"arts. Their research consumes them in a quest for more power, leading them "
+"down a path toward the dark arts practiced by the Necromancers and Lichs. "
+"Their mighty cold blast can freeze any foe that dares to cross their path."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:5
+msgid "female^Dark Elf Sorceress"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:21
+msgid ""
+"The women of the Dark Elves often join the Order of the Clerics at a very "
+"young age. These have gained the rank of Sorceress, and have nearly mastered "
+"the art of healing, torturing, and healing their captives again and again. "
+"Very soon, they will become Clerics, the terribly seductive sadistic "
+"torturers."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:5
+msgid "Dark Elf Warrior"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:17
+msgid ""
+"These Warriors have devoted themselves totally to mastering the use of dual "
+"weapons. With their balanced blades, they can shave a Dwarf. Only few become "
+"Corsairs."
+msgstr ""
+
+#. [unit_type]: id=EE Goblin Warbanner, race=goblin, description=
+#: Mystery_Campaign/units/dark_elves/l2_goblin_warbanner.cfg:5
+msgid "Goblin Warbanner"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:5
+msgid "female^Dark Elf Cleric"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:22
+msgid ""
+"A Cleric is adapt at both their magical abilities and the use of their "
+"maces, as the Dwarves have found out. They have the cure ability, a tool "
+"they use for their sadistic pleasure. Terribly seductive, they are both "
+"feared and admired for their beauty and cruelty."
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:5
+msgid "Dark Elf Corsair"
+msgstr ""
+
+#. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
+#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:18
+msgid ""
+"No single being can stand before a Dark Elf Corsair. If you every see one, "
+"run. With they're razor sharp swords, they can splice and dice a dwarves "
+"beard."
+msgstr ""
+
 #. [unit_type]: id=EE Dark Elf High Lord, race=darkelf
-#: Mystery_Campaign/units/dark_elves/High_Lord.cfg:5
 #: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:5
 msgid "Dark Elf High Lord"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf High Lord, race=darkelf
-#: Mystery_Campaign/units/dark_elves/High_Lord.cfg:21
 #: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:21
 msgid ""
 "When in his castle, the High Lord watches his slaves, feeds the lizards, and "
@@ -1176,87 +1301,12 @@ msgid ""
 "can stand before them."
 msgstr ""
 
-#. [attack]: type=impact
-#: Mystery_Campaign/units/dark_elves/High_Lord.cfg:35
-#: Mystery_Campaign/units/dark_elves/Lord.cfg:34
-#: Mystery_Campaign/units/dark_elves/Noble.cfg:34
-#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:35
-#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:35
-#: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:36
-#: Mystery_Campaign/units/dark_legion/L2_Doom_Guard.cfg:35
-#: Mystery_Campaign/units/dark_legion/L3_Hell_Guardian.cfg:36
-msgid "shield"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Hunter.cfg:5
-#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:5
-msgid "Dark Elf Hunter"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Hunter.cfg:21
-#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:21
-msgid ""
-"Lurking in the ever dark depths of the caves, the Hunters move around with "
-"out a sound, except for the twang of their crossbows."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lizard_Master.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:5
-msgid "Lizard Master"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lizard_Master.cfg:19
-#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:19
-msgid ""
-"Though the Lizards are not as fast as horses, they are much more powerful. "
-"Many an Dwarf has been cut in two by it's strong jaws. It would be well to "
-"recruit several of these powerful units."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lizard_Rider.cfg:5
-#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:5
-msgid "Lizard Rider"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lizard_Rider.cfg:18
-#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:18
-msgid ""
-"From childhood, they have been training with their beast, feeding it, "
-"healing it, and sleeping with it. It is their duty to scout ahead into the "
-"unknown, to go where no Dark Elf has gone before. Some day, they will become "
-"Master of the Lizard."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lord, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lord.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:5
-msgid "Dark Elf Lord"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Lord, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Lord.cfg:20
-#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:20
-msgid ""
-"Highly decorated, These men have gained the title of Lord through their "
-"cunning, their prowess, bravery, and strength. They command their provinces, "
-"lead their men in battle, and hold the law with an iron grip. They lead as "
-"an example to the life of a warrior in the realm of the Dark Elves."
-msgstr ""
-
 #. [unit_type]: id=EE Dark Elf Marshal, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Marshal.cfg:5
 #: Mystery_Campaign/units/dark_elves/l3_Marshal.cfg:5
 msgid "Dark Elf Marshal"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Marshal, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Marshal.cfg:22
 #: Mystery_Campaign/units/dark_elves/l3_Marshal.cfg:22
 msgid ""
 "These Elves have proven themselves on and off the battle field with their "
@@ -1265,30 +1315,12 @@ msgid ""
 "defend the Matron Mother with their swords and short spears."
 msgstr ""
 
-#. [unit_type]: id=EE Dark Elf Noble, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Noble.cfg:5
-#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:5
-msgid "Dark Elf Noble"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Noble, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Noble.cfg:20
-#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:20
-msgid ""
-"The young Lords are rash and brave. They have spent their entire childhood "
-"training with the sword, and have been taught from the best Marshals "
-"battlefield tactics. They have highly decorative shields that they use in "
-"battle to attack and encourage their troops."
-msgstr ""
-
 #. [unit_type]: id=EE Dark Elf Shadow, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Shadow.cfg:5
 #: Mystery_Campaign/units/dark_elves/l3_Shadow.cfg:5
 msgid "Dark Elf Shadow"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Shadow, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Shadow.cfg:21
 #: Mystery_Campaign/units/dark_elves/l3_Shadow.cfg:21
 msgid ""
 "Staying hidden safe in the shadows of the caves, they will hit you when you "
@@ -1297,47 +1329,12 @@ msgid ""
 "lot of bolts from their crossbow."
 msgstr ""
 
-#. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Sorcerer.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:5
-msgid "Dark Elf Sorcerer"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Sorcerer.cfg:19
-#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:19
-msgid ""
-"Sorcerers are Wizards that have gone deeper into the studying of the arcane "
-"arts. Their research consumes them in a quest for more power, leading them "
-"down a path toward the dark arts practiced by the Necromancers and Lichs. "
-"Their mighty cold blast can freeze any foe that dares to cross their path."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Sorceress.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:5
-msgid "female^Dark Elf Sorceress"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Sorceress.cfg:21
-#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:21
-msgid ""
-"The women of the Dark Elves often join the Order of the Clerics at a very "
-"young age. These have gained the rank of Sorceress, and have nearly mastered "
-"the art of healing, torturing, and healing their captives again and again. "
-"Very soon, they will become Clerics, the terribly seductive sadistic "
-"torturers."
-msgstr ""
-
 #. [unit_type]: id=EE Dark Elf Stalker, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Stalker.cfg:5
 #: Mystery_Campaign/units/dark_elves/l3_Stalker.cfg:5
 msgid "Dark Elf Stalker"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Stalker, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Stalker.cfg:22
 #: Mystery_Campaign/units/dark_elves/l3_Stalker.cfg:22
 msgid ""
 "Cunning, agile warriors, the Stalkers are powerful in both the use of their "
@@ -1346,56 +1343,17 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Warlock.cfg:5
 #: Mystery_Campaign/units/dark_elves/l3_Warlock.cfg:5
 msgid "Dark Elf Warlock"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Warlock.cfg:19
 #: Mystery_Campaign/units/dark_elves/l3_Warlock.cfg:19
 msgid ""
 "The best of their kind, these Warlocks have immense power, rivaling even "
 "that of the Arch Mage. They have discovered the secrets of the dark arts, "
 "and have the power to drain life from their opponents with a single touch, "
 "and add it to their own."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Warrior.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:5
-msgid "Dark Elf Warrior"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Warrior.cfg:17
-#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:17
-msgid ""
-"These Warriors have devoted themselves totally to mastering the use of dual "
-"weapons. With their balanced blades, they can shave a Dwarf. Only few become "
-"Corsairs."
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Wizard.cfg:5
-#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:5
-msgid "Dark Elf Wizard"
-msgstr ""
-
-#. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
-#: Mystery_Campaign/units/dark_elves/Wizard.cfg:19
-#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:19
-msgid ""
-"Some Dark Elves prefer studying the arcane arts over close-combat. Usually "
-"they are left to the lesser duties of the House, such as upkeep, watching "
-"the slaves, and other such things. However, in time of conflict, they can do "
-"great damage, even though they lack any training in close-combat."
-msgstr ""
-
-#. [unit_type]: id=EE Goblin Warbanner, race=goblin, description=
-#: Mystery_Campaign/units/dark_elves/goblin_warbanner.cfg:5
-#: Mystery_Campaign/units/dark_elves/l2_goblin_warbanner.cfg:5
-msgid "Goblin Warbanner"
 msgstr ""
 
 #. [unit_type]: id=EE Dark Bowman, race=human
@@ -2619,52 +2577,6 @@ msgstr ""
 msgid "Naga Warden"
 msgstr ""
 
-#. [message]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:85
-msgid "What faction do you want to play:"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:87
-#: Mystery_Campaign/utils/02_config.cfg:110
-msgid "Pick one for me!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:104
-msgid "What type of unit should your leader be?"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:121
-msgid "Please enter your name."
-msgstr ""
-
-#. [text_input]
-#: Mystery_Campaign/utils/02_config.cfg:124
-msgid "My name is"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:132
-msgid "What funding level do you want for the campaign?"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:134
-msgid "Classic"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:140
-msgid "Moderate"
-msgstr ""
-
-#. [option]: speaker=narrator
-#: Mystery_Campaign/utils/02_config.cfg:146
-msgid "Excessive"
-msgstr ""
-
 #. [damage]: id=EE_vigilance
 #: Mystery_Campaign/utils/abilities.cfg:6
 #: Mystery_Campaign/utils/abilities.cfg:7
@@ -2714,42 +2626,61 @@ msgid ""
 "the unprotected target"
 msgstr ""
 
-#. [attacks]: id=attack_only
+#. [chance_to_hit]: id=inverse
 #: Mystery_Campaign/utils/abilities.cfg:234
+msgid "inverse"
+msgstr ""
+
+#. [chance_to_hit]: id=inverse
 #: Mystery_Campaign/utils/abilities.cfg:235
-msgid "attack only"
-msgstr ""
-
-#. [attacks]: id=attack_only
-#: Mystery_Campaign/utils/abilities.cfg:236
-#: Mystery_Campaign/utils/abilities.cfg:238
 msgid ""
-"Attack only:\n"
-"This weapon will never be used on defense."
+"Inverse:\n"
+"This attack's chance to hit is equal to the defensive ability of the target "
+"on its current terrain."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:256
+#. [petrifies]: id=escape
+#: Mystery_Campaign/utils/abilities.cfg:249
+#: Mystery_Campaign/utils/abilities.cfg:251
+msgid ""
+"Prey Crush:\n"
+"When this attack hits, the combat ends. Can only be used at offense."
+msgstr ""
+
+#: Mystery_Campaign/utils/abilities.cfg:280
+msgid "ferocious"
+msgstr ""
+
+#: Mystery_Campaign/utils/abilities.cfg:281
+#: Mystery_Campaign/utils/abilities.cfg:283
+msgid ""
+"Ferocious:\n"
+"This unit battles with such vigor that it always has at least a 60% chance "
+"to hit."
+msgstr ""
+
+#: Mystery_Campaign/utils/abilities.cfg:297
 msgid "protection"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:257
+#: Mystery_Campaign/utils/abilities.cfg:298
 msgid ""
 "Protection:\n"
 "Adjacent units will receive a +20% bonus to all resistances (up to a maximum "
 "of 50%)."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:267
+#: Mystery_Campaign/utils/abilities.cfg:308
 msgid ""
 "This unit can protect those units around them, granting them extra "
 "resistances."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:274
+#: Mystery_Campaign/utils/abilities.cfg:315
 msgid "terror"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:275
+#: Mystery_Campaign/utils/abilities.cfg:316
 msgid ""
 "Terror:\n"
 "This unit can frighten enemy units that are next to it, making them fight "
@@ -2761,27 +2692,27 @@ msgid ""
 "their levels."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:320
+#: Mystery_Campaign/utils/abilities.cfg:361
 msgid ""
 " The terror skill of this unit scare ennemy units next to it so they deal "
 "less damage in combat, though this only applies to units of lower level."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:323
+#: Mystery_Campaign/utils/abilities.cfg:364
 msgid ""
 "This unit darkens it surrounding area, negating the lawful units their day "
 "bonus and removing the malus for the chaotic units"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:331
+#: Mystery_Campaign/utils/abilities.cfg:372
 msgid "darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:332
+#: Mystery_Campaign/utils/abilities.cfg:373
 msgid "female^darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:333
+#: Mystery_Campaign/utils/abilities.cfg:374
 msgid ""
 "Darkens:\n"
 "This unit deluminates the surrounding area, making chaotic units fight "
@@ -2790,13 +2721,13 @@ msgid ""
 "Any units adjacent to this unit will fight as if it were dawn when it is day."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:345
-#: Mystery_Campaign/utils/abilities.cfg:350
+#: Mystery_Campaign/utils/abilities.cfg:386
+#: Mystery_Campaign/utils/abilities.cfg:391
 msgid "cavestalk"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:346
-#: Mystery_Campaign/utils/abilities.cfg:351
+#: Mystery_Campaign/utils/abilities.cfg:387
+#: Mystery_Campaign/utils/abilities.cfg:392
 msgid ""
 "Cavestalk:\n"
 "This unit can hide in caves, and remain undetected by its enemies.\n"
@@ -2806,11 +2737,56 @@ msgid ""
 "units next to this unit."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:365
+#: Mystery_Campaign/utils/abilities.cfg:406
 msgid ""
 " In underground terrain (except lit underground), this unit's ambush skill "
 "renders it invisible to enemies unless it is immediately adjacent or has "
 "revealed itself by attacking."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:85
+msgid "What faction do you want to play:"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:87 Mystery_Campaign/utils/config.cfg:110
+msgid "Pick one for me!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:104
+msgid "What type of unit should your leader be?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:121
+msgid "Please enter your name."
+msgstr ""
+
+#. [text_input]
+#: Mystery_Campaign/utils/config.cfg:124
+msgid "My name is"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:132
+msgid "What funding level do you want for the campaign?"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:134
+msgid "Classic"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:140
+msgid "Moderate"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: Mystery_Campaign/utils/config.cfg:146
+msgid "Excessive"
 msgstr ""
 
 #. [curse]: id=weapon_special_curse
