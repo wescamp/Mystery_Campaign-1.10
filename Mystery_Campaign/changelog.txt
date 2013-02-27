@@ -64,4 +64,11 @@
 	- khalifate spearmans: firststrike => evade
 		* with healthy it means +10 curing on village, always
 
+1.5.7
+ - update of random recruit (the game no longer freezes)
+ - added fog and shroud on highter difficulties
+ - aragwaithi scout line is now more usefull
+ - aragwaithi eagles less powerfull (?)
+ - minor typos
+
 ### trewe sjrs456 at yahoo dot fr ###
