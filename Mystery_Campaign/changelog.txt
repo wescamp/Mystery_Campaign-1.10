@@ -71,4 +71,7 @@
  - aragwaithi eagles less powerfull (?)
  - minor typos
 
+1.5.8
+ - updaded translatiuons
+
 ### trewe sjrs456 at yahoo dot fr ###
