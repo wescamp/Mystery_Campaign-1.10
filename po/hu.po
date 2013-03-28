@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-26 22:30-0500\n"
+"POT-Creation-Date: 2013-03-28 16:27-0400\n"
 "PO-Revision-Date: 2005-07-10 13:34+0200\n"
 "Last-Translator: Automatically generated <>\n"
 "Language-Team: none\n"
@@ -66,7 +66,7 @@ msgstr ""
 "Ez egy végtelenül hosszú, véletlenszerű hadjárat. Ahogy játszod, kölünböző "
 "módokon válik egyre nehezebbé. Vajon hány pályát tudsz végigvinni?"
 
-#. [unit_type]: id=EE_dummy_unit
+#. [unit_type]: id=EE_dummy_unit, race=monster
 #: Mystery_Campaign/_main.cfg:75
 msgid "dummy_unit^Random No Mirror"
 msgstr ""

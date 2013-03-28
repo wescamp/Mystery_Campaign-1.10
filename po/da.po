@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-26 22:30-0500\n"
+"POT-Creation-Date: 2013-03-28 16:27-0400\n"
 "PO-Revision-Date: 2007-05-14 22:43+0200\n"
 "Last-Translator: Joe Hansen\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -73,7 +73,7 @@ msgstr ""
 "bliver kampagnen på forskellig vis sværere og sværere. Hvor mange scenarier "
 "kan du gennemføre?"
 
-#. [unit_type]: id=EE_dummy_unit
+#. [unit_type]: id=EE_dummy_unit, race=monster
 #: Mystery_Campaign/_main.cfg:75
 msgid "dummy_unit^Random No Mirror"
 msgstr ""
