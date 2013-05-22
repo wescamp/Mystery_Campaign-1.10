@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-28 16:27-0400\n"
+"POT-Creation-Date: 2013-05-21 22:53-0400\n"
 "PO-Revision-Date: 2005-10-12 14:07+0100\n"
 "Last-Translator: Arkadiusz Danilecki <adanilecki@cs.put.poznan.pl>\n"
 "Language-Team: none\n"
@@ -825,8 +825,8 @@ msgstr ""
 #. [petrifies]: id=escape
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Master.cfg:37
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Eagle_Rider.cfg:34
-#: Mystery_Campaign/utils/abilities.cfg:247
-#: Mystery_Campaign/utils/abilities.cfg:248
+#: Mystery_Campaign/utils/abilities.cfg:255
+#: Mystery_Campaign/utils/abilities.cfg:256
 msgid "prey crush"
 msgstr ""
 
@@ -2641,12 +2641,12 @@ msgid ""
 msgstr ""
 
 #. [chance_to_hit]: id=inverse
-#: Mystery_Campaign/utils/abilities.cfg:234
+#: Mystery_Campaign/utils/abilities.cfg:242
 msgid "inverse"
 msgstr ""
 
 #. [chance_to_hit]: id=inverse
-#: Mystery_Campaign/utils/abilities.cfg:235
+#: Mystery_Campaign/utils/abilities.cfg:243
 msgid ""
 "Inverse:\n"
 "This attack's chance to hit is equal to the defensive ability of the target "
@@ -2654,47 +2654,47 @@ msgid ""
 msgstr ""
 
 #. [petrifies]: id=escape
-#: Mystery_Campaign/utils/abilities.cfg:249
-#: Mystery_Campaign/utils/abilities.cfg:251
+#: Mystery_Campaign/utils/abilities.cfg:257
+#: Mystery_Campaign/utils/abilities.cfg:259
 msgid ""
 "Prey Crush:\n"
 "When this attack hits, the combat ends. Can only be used at offense."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:280
+#: Mystery_Campaign/utils/abilities.cfg:288
 msgid "ferocious"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:281
-#: Mystery_Campaign/utils/abilities.cfg:283
+#: Mystery_Campaign/utils/abilities.cfg:289
+#: Mystery_Campaign/utils/abilities.cfg:291
 msgid ""
 "Ferocious:\n"
 "This unit battles with such vigor that it always has at least a 60% chance "
 "to hit."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:297
+#: Mystery_Campaign/utils/abilities.cfg:305
 msgid "protection"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:298
+#: Mystery_Campaign/utils/abilities.cfg:306
 msgid ""
 "Protection:\n"
 "Adjacent units will receive a +20% bonus to all resistances (up to a maximum "
 "of 50%)."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:308
+#: Mystery_Campaign/utils/abilities.cfg:316
 msgid ""
 "This unit can protect those units around them, granting them extra "
 "resistances."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:315
+#: Mystery_Campaign/utils/abilities.cfg:323
 msgid "terror"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:316
+#: Mystery_Campaign/utils/abilities.cfg:324
 msgid ""
 "Terror:\n"
 "This unit can frighten enemy units that are next to it, making them fight "
@@ -2706,27 +2706,27 @@ msgid ""
 "their levels."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:361
+#: Mystery_Campaign/utils/abilities.cfg:369
 msgid ""
 " The terror skill of this unit scare ennemy units next to it so they deal "
 "less damage in combat, though this only applies to units of lower level."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:364
+#: Mystery_Campaign/utils/abilities.cfg:372
 msgid ""
 "This unit darkens it surrounding area, negating the lawful units their day "
 "bonus and removing the malus for the chaotic units"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:372
+#: Mystery_Campaign/utils/abilities.cfg:380
 msgid "darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:373
+#: Mystery_Campaign/utils/abilities.cfg:381
 msgid "female^darkens"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:374
+#: Mystery_Campaign/utils/abilities.cfg:382
 msgid ""
 "Darkens:\n"
 "This unit deluminates the surrounding area, making chaotic units fight "
@@ -2735,13 +2735,13 @@ msgid ""
 "Any units adjacent to this unit will fight as if it were dawn when it is day."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:386
-#: Mystery_Campaign/utils/abilities.cfg:391
+#: Mystery_Campaign/utils/abilities.cfg:394
+#: Mystery_Campaign/utils/abilities.cfg:399
 msgid "cavestalk"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:387
-#: Mystery_Campaign/utils/abilities.cfg:392
+#: Mystery_Campaign/utils/abilities.cfg:395
+#: Mystery_Campaign/utils/abilities.cfg:400
 msgid ""
 "Cavestalk:\n"
 "This unit can hide in caves, and remain undetected by its enemies.\n"
@@ -2751,7 +2751,7 @@ msgid ""
 "units next to this unit."
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:406
+#: Mystery_Campaign/utils/abilities.cfg:414
 msgid ""
 " In underground terrain (except lit underground), this unit's ambush skill "
 "renders it invisible to enemies unless it is immediately adjacent or has "
