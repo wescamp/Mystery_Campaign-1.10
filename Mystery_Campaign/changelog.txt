@@ -73,5 +73,19 @@
 
 1.5.8
  - updaded translatiuons
+ 
+1.6.3
+ - removed some unused stuff
+ - decreased loading data in multilyer
+ - removed obsolete descriptions headers
+ - updated images for nagas
+ Dark Elves:
+	- switched attack types
+	fire > cold (enchantress)
+	cold > arcane (wizard)
+	better counter for undead
+	
+1.6.5
+ - added Dwarvish Alchemist
 
 ### trewe sjrs456 at yahoo dot fr ###
