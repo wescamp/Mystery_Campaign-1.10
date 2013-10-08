@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-28 11:15-0400\n"
+"POT-Creation-Date: 2013-10-08 12:31-0400\n"
 "PO-Revision-Date: 2005-05-05 14:28+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1890,9 +1890,9 @@ msgstr ""
 #: Mystery_Campaign/units/elfs/Elvish_Hunter.cfg:48
 #: Mystery_Campaign/units/elfs/Elvish_Prowler.cfg:49
 #: Mystery_Campaign/units/elfs/Elvish_Trapper.cfg:48
-#: Mystery_Campaign/units/wose/Alchemist.cfg:120
-#: Mystery_Campaign/units/wose/Master_of_Alchemy.cfg:121
-#: Mystery_Campaign/units/wose/Potion_Smith.cfg:122
+#: Mystery_Campaign/units/misc/Alchemist.cfg:120
+#: Mystery_Campaign/units/misc/Master_of_Alchemy.cfg:121
+#: Mystery_Campaign/units/misc/Potion_Smith.cfg:122
 msgid "bolas"
 msgstr ""
 
@@ -2498,6 +2498,79 @@ msgstr ""
 msgid "Khalid"
 msgstr ""
 
+#. [unit_type]: id=Alchemist, race=dwarf
+#: Mystery_Campaign/units/misc/Alchemist.cfg:5
+msgid "Dwarvish Alchemist"
+msgstr ""
+
+#. [unit_type]: id=Alchemist, race=dwarf
+#: Mystery_Campaign/units/misc/Alchemist.cfg:24
+msgid ""
+"The practice of Alchemy among Dwarves began as an attempt to produce gold "
+"and other valuable resources from worthless rock. A dismal failure, the "
+"practice was shunned and mocked by many. Despite that, many dwarves "
+"continued in the study and discovered ways to use their potions for healing. "
+"As a matter of tradition, any dwarf who enters the profession begins as an "
+"Alchemist and is expected to be able to make potions and clever concoctions "
+"of his own before he is allowed to learn more tricks of the trade. An "
+"Alchemist has learned the basics of the practice, and can heal wounded units "
+"around himself, while preventing poisoned units from weakening."
+msgstr ""
+
+#. [attack]: type=impact
+#: Mystery_Campaign/units/misc/Alchemist.cfg:41
+#: Mystery_Campaign/units/misc/Master_of_Alchemy.cfg:42
+#: Mystery_Campaign/units/misc/Potion_Smith.cfg:42
+msgid "morningstar"
+msgstr ""
+
+#. [unit_type]: id=Master of Alchemy, race=dwarf
+#: Mystery_Campaign/units/misc/Master_of_Alchemy.cfg:5
+msgid "Dwarvish Master of Alchemy"
+msgstr ""
+
+#. [unit_type]: id=Master of Alchemy, race=dwarf
+#: Mystery_Campaign/units/misc/Master_of_Alchemy.cfg:25
+msgid ""
+"After having at least five decades of experience, an Alchemist may finally "
+"be able to earn the title 'Master of Alchemy', awarded yearly to elder "
+"Alchemists who have proven their worth on the battlefield. The rare few who "
+"attain this level of experience often retire to train initiate Alchemists, "
+"while some remain on the battlefield for even several more decades. Masters "
+"of Alchemy are revered by even the strongest Dwarvish Lords, and protecting "
+"a Master in battle is considered an honor for only the bravest of dwarvish "
+"warriors."
+msgstr ""
+
+#. [unit_type]: id=Potion Smith, race=dwarf
+#: Mystery_Campaign/units/misc/Potion_Smith.cfg:5
+msgid "Dwarvish Potion Smith"
+msgstr ""
+
+#. [unit_type]: id=Potion Smith, race=dwarf
+#: Mystery_Campaign/units/misc/Potion_Smith.cfg:24
+msgid ""
+"The first 'Potion Smiths' were mockingly named by rival Runesmiths who "
+"believed that devoting one's time to the study of mixing potions and leaves "
+"was a worthless endeavor. As time passed the name remained, and is now given "
+"as a title of honor to Alchemists who have advanced their skills "
+"sufficiently to earn them renown on the battlefield. Defeating the effects "
+"of poison is the accomplishment of any Alchemist who becomes a Potion Smith, "
+"and their skills make them in high demand."
+msgstr ""
+
+#. [unit_type]: id=EE Wose Shaman, race=wose
+#: Mystery_Campaign/units/misc/Shaman.cfg:5
+msgid "Wose Shaman"
+msgstr ""
+
+#. [unit_type]: id=EE Wose Shaman, race=wose
+#: Mystery_Campaign/units/misc/Shaman.cfg:25
+msgid ""
+"These woses are able to command forest plants such as vines and creepers to "
+"hinder their enemies."
+msgstr ""
+
 #. [unit_type]: id=Cockatrice, race=monster
 #: Mystery_Campaign/units/nagas/Cockatrice.cfg:5
 msgid "Cockatrice"
@@ -2582,79 +2655,6 @@ msgstr ""
 #. [unit_type]: id=EE Naga Warden, race=naga
 #: Mystery_Campaign/units/nagas/Naga_Warden.cfg:5
 msgid "Naga Warden"
-msgstr ""
-
-#. [unit_type]: id=Alchemist, race=dwarf
-#: Mystery_Campaign/units/wose/Alchemist.cfg:5
-msgid "Dwarvish Alchemist"
-msgstr ""
-
-#. [unit_type]: id=Alchemist, race=dwarf
-#: Mystery_Campaign/units/wose/Alchemist.cfg:24
-msgid ""
-"The practice of Alchemy among Dwarves began as an attempt to produce gold "
-"and other valuable resources from worthless rock. A dismal failure, the "
-"practice was shunned and mocked by many. Despite that, many dwarves "
-"continued in the study and discovered ways to use their potions for healing. "
-"As a matter of tradition, any dwarf who enters the profession begins as an "
-"Alchemist and is expected to be able to make potions and clever concoctions "
-"of his own before he is allowed to learn more tricks of the trade. An "
-"Alchemist has learned the basics of the practice, and can heal wounded units "
-"around himself, while preventing poisoned units from weakening."
-msgstr ""
-
-#. [attack]: type=impact
-#: Mystery_Campaign/units/wose/Alchemist.cfg:41
-#: Mystery_Campaign/units/wose/Master_of_Alchemy.cfg:42
-#: Mystery_Campaign/units/wose/Potion_Smith.cfg:42
-msgid "morningstar"
-msgstr ""
-
-#. [unit_type]: id=Master of Alchemy, race=dwarf
-#: Mystery_Campaign/units/wose/Master_of_Alchemy.cfg:5
-msgid "Dwarvish Master of Alchemy"
-msgstr ""
-
-#. [unit_type]: id=Master of Alchemy, race=dwarf
-#: Mystery_Campaign/units/wose/Master_of_Alchemy.cfg:25
-msgid ""
-"After having at least five decades of experience, an Alchemist may finally "
-"be able to earn the title 'Master of Alchemy', awarded yearly to elder "
-"Alchemists who have proven their worth on the battlefield. The rare few who "
-"attain this level of experience often retire to train initiate Alchemists, "
-"while some remain on the battlefield for even several more decades. Masters "
-"of Alchemy are revered by even the strongest Dwarvish Lords, and protecting "
-"a Master in battle is considered an honor for only the bravest of dwarvish "
-"warriors."
-msgstr ""
-
-#. [unit_type]: id=Potion Smith, race=dwarf
-#: Mystery_Campaign/units/wose/Potion_Smith.cfg:5
-msgid "Dwarvish Potion Smith"
-msgstr ""
-
-#. [unit_type]: id=Potion Smith, race=dwarf
-#: Mystery_Campaign/units/wose/Potion_Smith.cfg:24
-msgid ""
-"The first 'Potion Smiths' were mockingly named by rival Runesmiths who "
-"believed that devoting one's time to the study of mixing potions and leaves "
-"was a worthless endeavor. As time passed the name remained, and is now given "
-"as a title of honor to Alchemists who have advanced their skills "
-"sufficiently to earn them renown on the battlefield. Defeating the effects "
-"of poison is the accomplishment of any Alchemist who becomes a Potion Smith, "
-"and their skills make them in high demand."
-msgstr ""
-
-#. [unit_type]: id=EE Wose Shaman, race=wose
-#: Mystery_Campaign/units/wose/Shaman.cfg:5
-msgid "Wose Shaman"
-msgstr ""
-
-#. [unit_type]: id=EE Wose Shaman, race=wose
-#: Mystery_Campaign/units/wose/Shaman.cfg:25
-msgid ""
-"These woses are able to command forest plants such as vines and creepers to "
-"hinder their enemies."
 msgstr ""
 
 #. [weapon_special_stun]: id=rfc_stun
