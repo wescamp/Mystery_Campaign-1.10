@@ -1,6 +1,6 @@
 fai 'curse_attack.fai'
 
-{AI_CA_COMBAT_SCORE} + 500 +
+{AI_CA_COMBAT_SCORE} + 100 +
 if( target.leader, 100, 0 ) +
 
 if( index_of('slowed',keys(target.states)) != -1 or index_of('poisoned',keys(target.states)) != -1, -200,0 ) +
@@ -10,7 +10,7 @@ if( target.abilities,
 		if( index_of('curing', target.abilities) != -1, 25, 0 ) +
 		if( index_of('steadfast', target.abilities) != -1, 15, 0 ) +
 		if( index_of('skirmisher', target.abilities) != -1, 75, 0 ) +
-		if( index_of('inspire', target.abilities) != -1, 50, 0 ) +
+		if( index_of('XE inspire', target.abilities) != -1, 50, 0 ) +
 		if( index_of('leadership', target.abilities) != -1, 50, 0 ),
 	0
 ) +

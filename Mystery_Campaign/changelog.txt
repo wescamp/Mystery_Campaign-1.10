@@ -15,7 +15,7 @@
 
 1.0.3
  - removed khalifate
- - added netherlands translation
+ - added dutch translation
 
 1.2
  - added extended era factions (dark legion, dark elves, aragwaithi, frontiers, khalifate)
@@ -31,7 +31,7 @@
  - get rid of hight level leaders
 
 1.5.2
- - fixed a strange bug (extra_recruit is allowed inside [multiplayer_side])
+ - fixed a strange bug (extra_recruit is allowed inside [multiplayer_side]!)
 
 1.5.5
  - run wmltools over the campaign
@@ -62,7 +62,7 @@
 	- aragwaithi archer: +1hp;
 	- aragwaithi spearman: +1xp; firststrike => vigilance
 	- khalifate spearmans: firststrike => evade
-		* with healthy it means +10 curing on village, always
+		* healthy stacks with normal healing
 
 1.5.7
  - update of random recruit (the game no longer freezes)
@@ -72,20 +72,54 @@
  - minor typos
 
 1.5.8
- - updaded translatiuons
+ - updaded translations
  
 1.6.3
  - removed some unused stuff
- - decreased loading data in multilyer
+ - decreased loading data in multiplayer
  - removed obsolete descriptions headers
  - updated images for nagas
- Dark Elves:
-	- switched attack types
-	fire > cold (enchantress)
-	cold > arcane (wizard)
-	better counter for undead
-	
-1.6.5
+ - Dark Elves:
+	- switched attack types:
+		fire > cold (enchantress)
+		cold > arcane (wizard)
+		better counter for/from undead
+
+1.6.4 > 1.6.6
+ - ?
+
+1.6.7
  - added Dwarvish Alchemist
 
-### trewe sjrs456 at yahoo dot fr ###
+1.6.8
+ - Dwarvish Alchemist: +1 ranged dmg;
+ - Khalifate:
+	- Hakim: +unpoison; -1 hp
+	- Tabib: +unpoison; -1 hp; extra_heals>heals; -25 xp
+	- Jundi: -1 melee dmg
+	- Khayal+: weapon_special_chock on lance, -1 hp, liminal, possible fearless
+ - Cataphract: -2 hp, -2 dmg
+ - removed Human Fighter (Konrad type), was unused anyway
+ - added Death Squire and Skeleton Rider
+ - made sure all ID's are unique
+ - Dwarvish Miner: advance to scout not ulf
+ - enabled more units to recruit in MP
+ - Wesfolk Outcast: nerfed inspire, removed counter, +2 hp
+ - Wesfolk Lady/Leader: ", +ability blitz
+ - added Saurian lurker and prophet
+ - naga hunter: +1 cost, +1 xp
+ - frontiers swordman: -1 hp
+ - young bear: +1 cost
+ - updated translations
+ 
+1.6.9
+ - cleaned code
+ - fixed a few missing unconverted ID's
+ - fixed Rebels not recruiting enough
+ - adjusted difficulty
+
+ BUGS:
+
+ - 1.11.7 breaks random maps again
+
+### trewe \ sjrs456 at yahoo dot fr ###
