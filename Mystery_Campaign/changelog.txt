@@ -111,15 +111,32 @@
  - frontiers swordman: -1 hp
  - young bear: +1 cost
  - updated translations
- 
+
 1.6.9
  - cleaned code
  - fixed a few missing unconverted ID's
  - fixed Rebels not recruiting enough
  - adjusted difficulty
 
+1.6.10
+ - remaining tweaks
+ - nerfed terror ability
+ - new animation wml
+
+1.6.11
+ - Dwarvish Miner: pierce > blade
+ - Dark Elves: Captain/Marshal -1 strike on spear
+ - Elves Wood: Hunter/Trapper/Prowler -2 dmg on bolas
+ - Outlaw Lady: blitz > distract
+ - Aragwaithi: Captain/Flagbearer/Warbanner -1 strike on sword
+ - Falcon +1 hp
+ - Shessinam Wolves: -1 dmg on bite
+ - Saurian Prophet: -1 staff dmg
+ - Goblin Warbanner: -1 dmg on both attacks
+ - Holibar: -2hp +1xp
+ - mirrored Princess/Battle Princess from HttT
+
  BUGS:
+ - roads > 0 crash
 
- - 1.11.7 breaks random maps again
-
-### trewe \ sjrs456 at yahoo dot fr ###
+### trewe | sjrs456 at yahoo dot fr ###
