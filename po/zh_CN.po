@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mystery_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 18:35+0100\n"
+"POT-Creation-Date: 2014-02-17 00:24+0100\n"
 "PO-Revision-Date: 2005-05-03 22:43+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -60,12 +60,12 @@ msgid ""
 msgstr ""
 
 #. [era]: id=era_extended
-#: Mystery_Campaign/_main.cfg:98
+#: Mystery_Campaign/_main.cfg:100
 msgid "Extended Era"
 msgstr ""
 
 #. [era]: id=era_extended
-#: Mystery_Campaign/_main.cfg:99
+#: Mystery_Campaign/_main.cfg:101
 msgid ""
 "Extends the default era up to 12 factions, adding 5 unique new factions."
 msgstr ""
@@ -753,6 +753,42 @@ msgstr ""
 msgid "Defeated"
 msgstr ""
 
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:339
+msgid "Start"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:340
+msgid "Spring"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:341
+msgid "Summer"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:342
+msgid "Fall"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:343
+msgid "Winter"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:344
+msgid "Desert"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:345
+msgid "Swamp"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:346
+msgid "Cave"
+msgstr ""
+
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:347
+msgid "Tropical Island"
+msgstr ""
+
 #. [unit_type]: id=XE Dwarvish Alchemist, race=dwarf
 #: Mystery_Campaign/units/dwarves/Alchemist.cfg:5
 msgid "Dwarvish Alchemist"
@@ -776,9 +812,9 @@ msgstr ""
 #: Mystery_Campaign/units/dwarves/Alchemist.cfg:120
 #: Mystery_Campaign/units/dwarves/Master_of_Alchemy.cfg:121
 #: Mystery_Campaign/units/dwarves/Potion_Smith.cfg:122
-#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:48
-#: Mystery_Campaign/units/elves-wood/Elvish_Prowler.cfg:49
-#: Mystery_Campaign/units/elves-wood/Elvish_Trapper.cfg:48
+#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:54
+#: Mystery_Campaign/units/elves-wood/Elvish_Prowler.cfg:52
+#: Mystery_Campaign/units/elves-wood/Elvish_Trapper.cfg:50
 msgid "bolas"
 msgstr ""
 
@@ -1119,7 +1155,7 @@ msgid "Elvish Hunter"
 msgstr ""
 
 #. [unit_type]: id=XE Elvish Hunter, race=elf
-#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:32
+#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:34
 msgid ""
 "The elvish militia is mainly composed of civilians who have dropped their "
 "bows in favour of entangling unwary oponents using their bolas, and then "
@@ -1128,7 +1164,7 @@ msgid ""
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:157
+#: Mystery_Campaign/units/elves-wood/Elvish_Hunter.cfg:164
 msgid "female^Elvish Hunter"
 msgstr ""
 
@@ -1147,7 +1183,7 @@ msgid ""
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/elves-wood/Elvish_Prowler.cfg:146
+#: Mystery_Campaign/units/elves-wood/Elvish_Prowler.cfg:149
 msgid "female^Elvish Prowler"
 msgstr ""
 
@@ -1165,7 +1201,7 @@ msgid ""
 msgstr ""
 
 #. [female]
-#: Mystery_Campaign/units/elves-wood/Elvish_Trapper.cfg:127
+#: Mystery_Campaign/units/elves-wood/Elvish_Trapper.cfg:130
 msgid "female^Elvish Trapper"
 msgstr ""
 
@@ -2569,6 +2605,16 @@ msgstr ""
 msgid "female^Outcast"
 msgstr ""
 
+#. [unit_type]: id=XE Wesfolk Outcast, race=human
+#: Mystery_Campaign/units/humans/Wesfolk_Outcast.cfg:23
+msgid ""
+"Born in the Wesfolk aristocracy, she and her people were excluded from "
+"society by their lords, who betrayed their loyalty when a war against "
+"Haldric’s people was being lost. This outcast still conserves her nobleness "
+"in her veins and in the battlefield she has earned valuable experience, "
+"which she can lend to her people for turning a fight in their favour."
+msgstr ""
+
 #. [unit_type]: id=XE Dire Shessinsaan Wolf, race=wolf
 #: Mystery_Campaign/units/monsters/Dire_Shessinsaan.cfg:5
 msgid "Dire Shessinsaan Wolf"
@@ -2609,7 +2655,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=cold
-#: Mystery_Campaign/units/nagas/Cockatrice.cfg:26
+#: Mystery_Campaign/units/nagas/Cockatrice.cfg:27
 msgid "gaze"
 msgstr ""
 
@@ -2696,12 +2742,12 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=XE Saurian Prophet, race=lizard
-#: Mystery_Campaign/units/nagas/saurian_prophet.cfg:21
+#: Mystery_Campaign/units/nagas/saurian_prophet.cfg:22
 msgid "Saurian Prophet"
 msgstr ""
 
 #. [unit_type]: id=XE Saurian Prophet, race=lizard
-#: Mystery_Campaign/units/nagas/saurian_prophet.cfg:36
+#: Mystery_Campaign/units/nagas/saurian_prophet.cfg:37
 msgid ""
 "Certain saurians are seen dressed in arcane regalia and covered head to toe "
 "in horrifying, esoteric shapes and markings, both with paint and tattoo. "
@@ -2724,12 +2770,6 @@ msgid ""
 "and destruction."
 msgstr ""
 
-#. [attack]: type=blade
-#: Mystery_Campaign/units/undead/Bone_Knight.cfg:31
-#: Mystery_Campaign/units/undead/Skeleton_Rider.cfg:42
-msgid "axe"
-msgstr ""
-
 #. [attack]: type=impact
 #: Mystery_Campaign/units/undead/Bone_Knight.cfg:68
 msgid "trample"
@@ -2750,11 +2790,6 @@ msgid ""
 "underlings."
 msgstr ""
 
-#. [attack]: type=blade
-#: Mystery_Campaign/units/undead/Death_Squire.cfg:33
-msgid "sword"
-msgstr ""
-
 #. [unit_type]: id=XE Skeleton Rider, race=undead
 #: Mystery_Campaign/units/undead/Skeleton_Rider.cfg:5
 msgid "Skeleton Rider"
@@ -2768,85 +2803,97 @@ msgid ""
 "fear and destruction."
 msgstr ""
 
-#. [skirmisher]: id=XE distract
+#. [ability_initiative]: id=XE initiative
 #: Mystery_Campaign/utils/abilities.cfg:6
+msgid "initiative"
+msgstr ""
+
+#. [ability_initiative]: id=XE initiative
+#: Mystery_Campaign/utils/abilities.cfg:7
+msgid ""
+"All adjacent friendly units will strike first in melee combat, even when "
+"defending."
+msgstr ""
+
+#. [skirmisher]: id=XE distract
+#: Mystery_Campaign/utils/abilities.cfg:72
 msgid "distract"
 msgstr ""
 
 #. [skirmisher]: id=XE distract
-#: Mystery_Campaign/utils/abilities.cfg:7
+#: Mystery_Campaign/utils/abilities.cfg:73
 msgid ""
 "This unit negates enemy Zones of Control around itself for allied units (but "
 "not for itself)."
 msgstr ""
 
 #. [leadership]: id=XE inspire
-#: Mystery_Campaign/utils/abilities.cfg:29
+#: Mystery_Campaign/utils/abilities.cfg:95
 msgid "inspire"
 msgstr ""
 
 #. [leadership]: id=XE inspire
-#: Mystery_Campaign/utils/abilities.cfg:30
+#: Mystery_Campaign/utils/abilities.cfg:96
 msgid ""
 "This unit can inspire *allied* units that are next to it, making them do 25% "
 "more damage per level difference."
 msgstr ""
 
 #. [chance_to_hit]: id=XE ferocious
-#: Mystery_Campaign/utils/abilities.cfg:129
-#: Mystery_Campaign/utils/abilities.cfg:130
+#: Mystery_Campaign/utils/abilities.cfg:195
+#: Mystery_Campaign/utils/abilities.cfg:196
 msgid "ferocious"
 msgstr ""
 
 #. [chance_to_hit]: id=XE ferocious
-#: Mystery_Campaign/utils/abilities.cfg:131
-#: Mystery_Campaign/utils/abilities.cfg:132
+#: Mystery_Campaign/utils/abilities.cfg:197
+#: Mystery_Campaign/utils/abilities.cfg:198
 msgid ""
 "This unit battles with such vigor that it always has at least a 60% chance "
 "to hit."
 msgstr ""
 
 #. [resistance]: id=XE protection
-#: Mystery_Campaign/utils/abilities.cfg:145
+#: Mystery_Campaign/utils/abilities.cfg:211
 msgid "protection"
 msgstr ""
 
 #. [resistance]: id=XE protection
-#: Mystery_Campaign/utils/abilities.cfg:146
+#: Mystery_Campaign/utils/abilities.cfg:212
 msgid ""
 "Adjacent units will receive a +20% bonus to all resistances (up to a maximum "
 "of 50%)."
 msgstr ""
 
 #. [leadership]: id=XE terror
-#: Mystery_Campaign/utils/abilities.cfg:162
+#: Mystery_Campaign/utils/abilities.cfg:228
 msgid "terror"
 msgstr ""
 
 #. [leadership]: id=XE terror
-#: Mystery_Campaign/utils/abilities.cfg:163
+#: Mystery_Campaign/utils/abilities.cfg:229
 msgid ""
 "This unit can frighten enemy units that are next to it, making them fight "
 "worse.\n"
 "\n"
 "Adjacent enemy units of lower level will do less damage in battle. When a "
 "unit of lower level is adjacent to, and is an enemy of the unit with Terror "
-"engages in combat, its attacks do 25% less damage times the difference in "
+"engages in combat, its attacks do 10% less damage times the difference in "
 "their levels."
 msgstr ""
 
 #. [illuminates]: id=XE darkens
-#: Mystery_Campaign/utils/abilities.cfg:213
+#: Mystery_Campaign/utils/abilities.cfg:288
 msgid "darkens"
 msgstr ""
 
 #. [illuminates]: id=XE darkens
-#: Mystery_Campaign/utils/abilities.cfg:214
+#: Mystery_Campaign/utils/abilities.cfg:289
 msgid "female^darkens"
 msgstr ""
 
 #. [illuminates]: id=XE darkens
-#: Mystery_Campaign/utils/abilities.cfg:215
+#: Mystery_Campaign/utils/abilities.cfg:290
 msgid ""
 "This unit deluminates the surrounding area, making chaotic units fight "
 "better, and lawful units fight worse.\n"
@@ -2856,16 +2903,16 @@ msgid ""
 msgstr ""
 
 #. [hides]
-#: Mystery_Campaign/utils/abilities.cfg:226
-#: Mystery_Campaign/utils/abilities.cfg:230
+#: Mystery_Campaign/utils/abilities.cfg:301
+#: Mystery_Campaign/utils/abilities.cfg:305
 msgid "cavestalk"
 msgstr ""
 
 #. [hides]
-#: Mystery_Campaign/utils/abilities.cfg:227
-#: Mystery_Campaign/utils/abilities.cfg:231
+#: Mystery_Campaign/utils/abilities.cfg:302
+#: Mystery_Campaign/utils/abilities.cfg:306
 msgid ""
-"This unit can hide in caves, and remain undetected by its enemies.\n"
+"This unit can hide in shadow caves, and remain undetected by its enemies.\n"
 "\n"
 "Enemy units cannot see or attack this unit when it is in caves, except for "
 "any turn immediately after this unit has attacked, or if there are enemy "
@@ -2873,29 +2920,29 @@ msgid ""
 msgstr ""
 
 #. [hides]: id=XE lurker
-#: Mystery_Campaign/utils/abilities.cfg:249
+#: Mystery_Campaign/utils/abilities.cfg:324
 msgid "lurker"
 msgstr ""
 
 #. [hides]: id=XE lurker
-#: Mystery_Campaign/utils/abilities.cfg:250
+#: Mystery_Campaign/utils/abilities.cfg:325
 msgid ""
 "This unit can remain undetected in deep water, waiting until their unwared "
 "prey moves adjacent at which point it will be hit with a single strike"
 msgstr ""
 
 #. [hides]: id=XE lurker
-#: Mystery_Campaign/utils/abilities.cfg:252
+#: Mystery_Campaign/utils/abilities.cfg:327
 msgid "Surprise!"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:326
-#: Mystery_Campaign/utils/abilities.cfg:327
+#: Mystery_Campaign/utils/abilities.cfg:404
+#: Mystery_Campaign/utils/abilities.cfg:405
 msgid "blitz"
 msgstr ""
 
-#: Mystery_Campaign/utils/abilities.cfg:328
-#: Mystery_Campaign/utils/abilities.cfg:329
+#: Mystery_Campaign/utils/abilities.cfg:406
+#: Mystery_Campaign/utils/abilities.cfg:407
 msgid ""
 "Allies that start their turn adjacent to this unit are granted Skirmisher "
 "for that turn."
@@ -3034,6 +3081,12 @@ msgid ""
 "trespass their Zones of Control and move unhindered around them."
 msgstr ""
 
+#: Mystery_Campaign/utils/special_notes.cfg:19
+msgid ""
+"This unit's grasp of melee tactics allows adjacent allies to strike the "
+"first blow even when defending."
+msgstr ""
+
 #. [chance_to_hit]: id=XE inverse
 #: Mystery_Campaign/utils/weapon_specials.cfg:6
 msgid "inverse"
@@ -3116,35 +3169,35 @@ msgstr ""
 msgid "When this attack hits, the combat ends. Can only be used at offense."
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:118
 #: Mystery_Campaign/utils/weapon_specials.cfg:119
+#: Mystery_Campaign/utils/weapon_specials.cfg:120
 msgid "stun"
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:120
 #: Mystery_Campaign/utils/weapon_specials.cfg:121
+#: Mystery_Campaign/utils/weapon_specials.cfg:122
 msgid ""
 "This attack hits so hard that the opponent is dazed and can no longer "
 "enforce a zone of control. The effect wears off on the opponent’s next turn."
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:202
+#: Mystery_Campaign/utils/weapon_specials.cfg:203
 msgid "female^stunned"
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:208
+#: Mystery_Campaign/utils/weapon_specials.cfg:209
 msgid "stunned"
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:304
+#: Mystery_Campaign/utils/weapon_specials.cfg:305
 msgid "leech"
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:305
+#: Mystery_Campaign/utils/weapon_specials.cfg:306
 msgid "female^leech"
 msgstr ""
 
-#: Mystery_Campaign/utils/weapon_specials.cfg:306
+#: Mystery_Campaign/utils/weapon_specials.cfg:307
 msgid ""
 "This attack drains health from living targets, healing adjacent allies for "
 "one third of the damage dealt."
